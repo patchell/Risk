@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AiHuman - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\GameObjs" /I "..\Rules" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/AiHuman.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\RiskGameIII\AiHuman\HumanAiFuncs.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP54.tmp" 
+Creating temporary file "C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP55.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/AiHuman.pdb" /debug /machine:I386 /def:".\AiHuman.def" /out:"Debug/AiHuman.dll" /implib:"Debug/AiHuman.lib" /pdbtype:sept 
+.\Debug\AiHuman.obj
+.\Debug\AttackDlg.obj
+.\Debug\ChoseDlg.obj
+.\Debug\DefendDlg.obj
+.\Debug\HumanAiFuncs.obj
+.\Debug\Occupy.obj
+.\Debug\PlaceDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\AiHuman.res
+..\GameObjs.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP55.tmp"
+<h3>Output Window</h3>
+Compiling...
+HumanAiFuncs.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+AiHuman.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

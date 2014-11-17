@@ -1,0 +1,402 @@
+  Choose:loop=0
+0:Formosa <- Player 1
+  Choose:loop=0
+1:Tibet <- Player 2
+  Choose:loop=0
+2:Yugoslavia <- Player 3
+  Choose:loop=0
+3:Alaska <- Player 4
+  Choose:loop=0
+4:California <- Player 1
+  Choose:loop=0
+5:Libya <- Player 2
+  Choose:loop=0
+6:Buryat <- Player 3
+  Choose:Part 2 Buryat
+  Choose:Part 2 Taymar
+  Choose:loop=0
+7:Taymar <- Player 4
+  Choose:loop=0
+8:Ethiopia <- Player 1
+  Choose:loop=0
+9:Baja California <- Player 2
+  Choose:loop=0
+10:Sonora <- Player 3
+  Choose:loop=0
+11:New York <- Player 4
+  Choose:loop=0
+12:Greece <- Player 1
+  Choose:loop=0
+13:Columbia <- Player 2
+  Choose:loop=0
+14:Green Land <- Player 3
+  Choose:loop=0
+15:Turkey <- Player 4
+  Choose:loop=0
+16:Chuckhi <- Player 1
+  Choose:loop=0
+17:Victoria <- Player 2
+  Choose:loop=0
+18:Konti Marsi <- Player 3
+  Choose:loop=0
+19:Hispanola <- Player 4
+  Choose:loop=0
+20:Queens Land <- Player 1
+  Choose:loop=0
+21:Mindano <- Player 2
+  Choose:Part 2 Greece
+  Choose:Part 2 Ukraine
+  Choose:loop=0
+22:Ukraine <- Player 3
+  Choose:loop=0
+23:Mali <- Player 4
+  Choose:loop=0
+24:Sri Lanka <- Player 1
+  Choose:loop=0
+25:Borneo <- Player 2
+  Choose:loop=0
+26:New Guiena <- Player 3
+  Choose:loop=0
+27:Fauklin Islands <- Player 4
+  Choose:loop=0
+28:India <- Player 1
+  Choose:loop=0
+29:South Africa <- Player 2
+  Choose:Part 2 New Guiena
+  Choose:Part 2 North New Zealand
+  Choose:loop=0
+30:North New Zealand <- Player 3
+  Choose:loop=0
+31:Uraguay <- Player 4
+  Choose:loop=0
+32:Egypt <- Player 1
+  Choose:loop=0
+33:Kazakh <- Player 2
+  Choose:Part 2 Mali
+  Choose:Part 2 Nigeria
+  Choose:loop=0
+34:Nigeria <- Player 3
+  Choose:loop=0
+35:South New Zealand <- Player 4
+  Choose:loop=0
+36:Virginia <- Player 1
+  Choose:loop=0
+37:Siam <- Player 2
+  Choose:loop=0
+38:Nevada <- Player 3
+  Choose:loop=0
+39:North West Territory <- Player 4
+  Choose:loop=0
+40:Arabia <- Player 1
+  Choose:loop=0
+41:Peru <- Player 2
+  Choose:loop=0
+42:Antartica <- Player 3
+  Choose:loop=0
+43:Denmark <- Player 4
+  Choose:loop=0
+44:Java <- Player 1
+  Choose:loop=0
+45:Quebec <- Player 2
+  Choose:Part 2 Sri Lanka
+  Choose:Part 2 Pakastan
+  Choose:loop=0
+46:Pakastan <- Player 3
+  Choose:loop=0
+47:Sudan <- Player 4
+  Choose:Part 2 Turkey
+  Chose Part 3
+  Choose:loop=0
+48:Kamchatca <- Player 1
+  Choose:loop=0
+49:Venezuela <- Player 2
+  Choose:loop=0
+50:Cuba <- Player 3
+  Choose:loop=0
+51:England <- Player 4
+  Choose:Part 2 India
+  Choose:Part 2 Afganestan
+  Choose:loop=0
+52:Afganestan <- Player 1
+  Choose:loop=0
+53:New Mexico <- Player 2
+  Choose:loop=0
+54:Rusia <- Player 3
+  Choose:Part 2 Egypt
+  Choose:Part 2 Chad
+  Choose:loop=0
+55:Chad <- Player 4
+  Choose:loop=0
+56:Algeria <- Player 1
+  Choose:loop=0
+57:Nova Scocia <- Player 2
+  Choose:Part 2 Siam
+  Choose:Part 2 Luzon
+  Choose:loop=0
+58:Luzon <- Player 3
+  Choose:loop=0
+59:Krasnoyarsk <- Player 4
+  Choose:loop=0
+60:Angola <- Player 1
+  Choose:loop=0
+61:Brazil <- Player 2
+  Choose:loop=0
+62:Hokkaido <- Player 3
+  Choose:loop=0
+63:Tomak <- Player 4
+  Choose:Part 2 Brazil
+  Choose:Part 2 Bolivia
+  Choose:loop=0
+64:Bolivia <- Player 1
+  Choose:loop=0
+65:China <- Player 2
+  Choose:Part 2 India
+  Choose:Part 2 Siberia
+  Choose:loop=0
+66:Siberia <- Player 3
+  Choose:Part 2 California
+  Choose:Part 2 Oklahoma
+  Choose:loop=0
+67:Oklahoma <- Player 4
+  Choose:Part 2 Java
+  Choose:Part 2 New South Wales
+  Choose:loop=0
+68:New South Wales <- Player 1
+  Choose:loop=0
+69:Poland <- Player 2
+  Choose:Part 2 New Guiena
+  Choose:Part 2 South Austraila
+  Choose:loop=0
+70:South Austraila <- Player 3
+  Choose:Part 2 Virginia
+  Choose:Part 2 Texas
+  Choose:loop=0
+71:Texas <- Player 4
+  Choose:Part 2 Venezuela
+  Choose:Part 2 Paraguay
+  Choose:loop=0
+72:Paraguay <- Player 1
+  Choose:loop=0
+73:Burma <- Player 2
+  Choose:Part 2 Nova Scocia
+  Choose:Part 2 Oregon
+  Choose:loop=0
+74:Oregon <- Player 3
+  Choose:loop=0
+75:Sweeden <- Player 4
+  Choose:loop=0
+76:Japan <- Player 1
+  Choose:Part 2 Kamchatca
+  Choose:Part 2 Yakust
+  Choose:loop=0
+77:Yakust <- Player 2
+  Choose:loop=0
+78:Hawaii <- Player 3
+  Choose:Part 2 Chuckhi
+  Choose:Part 2 Irkutsk
+  Choose:loop=0
+79:Irkutsk <- Player 4
+  Choose:Part 2 Chuckhi
+  Choose:Part 2 Manchuria
+  Choose:loop=0
+80:Manchuria <- Player 1
+  Choose:Part 2 Arabia
+  Choose:Part 2 Persia
+  Choose:loop=0
+81:Persia <- Player 2
+  Choose:Part 2 Algeria
+  Choose:Part 2 Congo
+  Choose:loop=0
+82:Congo <- Player 3
+  Choose:Part 2 Denmark
+  Chose Part 3
+  Choose:loop=0
+83:Mongolia <- Player 4
+  Choose:loop=0
+84:Panama <- Player 1
+  Choose:loop=0
+85:Tazmania <- Player 2
+  Choose:Part 2 Konti Marsi
+  Choose:Part 2 Urals
+  Choose:loop=0
+86:Urals <- Player 3
+  Choose:Part 2 Kazakh
+  Choose:Part 2 Koni
+  Choose:loop=0
+87:Koni <- Player 4
+  Choose:Part 2 Nigeria
+  Choose:Part 2 Kenya
+  Choose:loop=0
+88:Kenya <- Player 1
+  Choose:Part 2 Koni
+  Choose:Part 2 sakhalin
+  Choose:loop=0
+89:sakhalin <- Player 2
+  Choose:Part 2 Afganestan
+  Chose Part 3
+  Choose:loop=0
+90:Korea <- Player 3
+  Choose:Part 2 Burma
+  Choose:Part 2 Malasia
+  Choose:loop=0
+91:Malasia <- Player 4
+  Choose:loop=0
+92:Tanzania <- Player 1
+  Choose:Part 2 Rusia
+  Choose:Part 2 Romania
+  Choose:loop=0
+93:Romania <- Player 2
+  Choose:Part 2 Egypt
+  Choose:Part 2 Zambia
+  Choose:loop=0
+94:Zambia <- Player 3
+  Choose:loop=0
+95:Iraq <- Player 4
+  Choose:Part 2 Chuckhi
+  Chose Part 3
+  Choose:loop=0
+96:Morrocco <- Player 1
+  Choose:Part 2 New South Wales
+  Choose:Part 2 Western Austrailia
+  Choose:loop=0
+97:Western Austrailia <- Player 2
+  Choose:Part 2 Kazakh
+  Chose Part 3
+  Choose:loop=0
+98:Madagascar <- Player 3
+  Choose:Part 2 Poland
+  Choose:Part 2 Austria
+  Choose:loop=0
+99:Austria <- Player 4
+  Choose:Part 2 Sudan
+  Chose Part 3
+  Choose:loop=0
+100:Sumatra <- Player 1
+  Choose:Part 2 Taymar
+  Chose Part 3
+  Choose:loop=0
+101:Yukatan <- Player 2
+  Choose:Part 2 Yakust
+  Chose Part 3
+  Choose:loop=0
+102:Chihuahua <- Player 3
+  Choose:loop=0
+103:Manitoba <- Player 4
+  Choose:Part 2 Malasia
+  Chose Part 3
+  Choose:loop=0
+104:Durango <- Player 1
+  Choose:Part 2 Antartica
+  Chose Part 3
+  Choose:loop=0
+105:Palestine <- Player 2
+  Choose:Part 2 Poland
+  Choose:Part 2 Italy
+  Choose:loop=0
+106:Italy <- Player 3
+  Choose:Part 2 Tanzania
+  Chose Part 3
+  Choose:loop=0
+107:Syria <- Player 4
+  Choose:loop=0
+108:Lousianna <- Player 1
+  Choose:Part 2 Kazakh
+  Chose Part 3
+  Choose:loop=0
+109:Lithuanea <- Player 2
+  Choose:Part 2 Oklahoma
+  Choose:Part 2 Florida
+  Choose:loop=0
+110:Florida <- Player 3
+  Choose:Part 2 Chad
+  Chose Part 3
+  Choose:loop=0
+111:Finnland <- Player 4
+  Choose:Part 2 New York
+  Choose:Part 2 Maine
+  Choose:loop=0
+112:Maine <- Player 1
+  Choose:Part 2 Java
+  Chose Part 3
+  Choose:loop=0
+113:Norway <- Player 2
+  Choose:Part 2 Italy
+  Choose:Part 2 Germany
+  Choose:loop=0
+114:Germany <- Player 3
+  Choose:Part 2 Mali
+  Chose Part 3
+  Choose:loop=0
+115:France <- Player 4
+  Choose:Part 2 Fauklin Islands
+  Chose Part 3
+  Choose:loop=0
+116:Spain <- Player 1
+  Choose:Part 2 Libya
+  Chose Part 3
+  Choose:loop=0
+117:Scottland <- Player 2
+  Choose:Part 2 Nova Scocia
+  Choose:Part 2 Ohio
+  Choose:loop=0
+118:Ohio <- Player 3
+  Choose:Part 2 Yugoslavia
+  Chose Part 3
+  Choose:loop=0
+119:Irerland <- Player 4
+  Choose:Part 2 Siam
+  Chose Part 3
+  Choose:loop=0
+120:Iceland <- Player 1
+  Choose:Part 2 Korea
+  Chose Part 3
+  Choose:loop=0
+121:Northwest Territory <- Player 2
+  Choose:Part 2 Chihuahua
+  Chose Part 3
+  Choose:loop=0
+122:Yukon <- Player 3
+  Choose:Part 2 Sudan
+  Chose Part 3
+  Choose:loop=0
+123:British Columbia <- Player 4
+  Choose:Part 2 Mali
+  Chose Part 3
+  Choose:loop=0
+124:Alberta <- Player 1
+  Choose:Part 2 Kenya
+  Chose Part 3
+  Choose:loop=0
+125:Ontario <- Player 2
+  Choose:Part 2 Siberia
+  Chose Part 3
+  Choose:loop=0
+126:Dakota <- Player 3
+  Choose:Part 2 Chuckhi
+  Chose Part 3
+  Choose:loop=0
+127:Minnasota <- Player 4
+  Choose:Part 2 Durango
+  Chose Part 3
+  Choose:loop=0
+128:Carolina <- Player 1
+  Choose:Part 2 Paraguay
+  Choose:Part 2 Chile
+  Choose:loop=0
+129:Chile <- Player 2
+  Choose:Part 2 Maine
+  Chose Part 3
+  Choose:loop=0
+130:Argentina <- Player 3
+  Choose:Part 2 Japan
+  Chose Part 3
+  Choose:loop=0
+131:Guam <- Player 4
+  Choose:Part 2 Kenya
+  Chose Part 3
+  Choose:loop=0
+132:Midway <- Player 1
+  Choose:Part 2 Iraq
+  Chose Part 3
+  Choose:loop=0
+133:Easter Island <- Player 2

@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GameObjs - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP44.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug/GameObjs.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\RiskGameIII\GameObjs\AiList.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP44.tmp" 
+Creating temporary file "C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP45.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"../GameObjs.pdb" /debug /machine:I386 /def:".\GameObjs.def" /out:"../GameObjs.dll" /implib:"../GameObjs.lib" /pdbtype:sept 
+.\Debug\AiList.obj
+.\Debug\Armies.obj
+.\Debug\Bucket.obj
+.\Debug\Card.obj
+.\Debug\GameObjs.obj
+.\Debug\List.obj
+.\Debug\ListTerritory.obj
+.\Debug\Lock.obj
+.\Debug\Map.obj
+.\Debug\Mapcontinent.obj
+.\Debug\MapDataItem.obj
+.\Debug\MapTerritory.obj
+.\Debug\MSG.obj
+.\Debug\MyHeap.obj
+.\Debug\MySem.obj
+.\Debug\MyThread.obj
+.\Debug\Player.obj
+.\Debug\Polygon.obj
+.\Debug\RiskUtils.obj
+.\Debug\Score.obj
+.\Debug\StdAfx.obj
+.\Debug\Thread.obj
+.\Debug\GameObjs.res
+]
+Creating command line "link.exe @C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP45.tmp"
+<h3>Output Window</h3>
+Compiling...
+AiList.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+GameObjs.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

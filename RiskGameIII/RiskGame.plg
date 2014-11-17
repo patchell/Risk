@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RiskGame - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP90.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "AiDllBasic" /I "GameObjs" /I "Rules" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/RiskGame.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\RiskGameIII\DefaultAI.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP90.tmp" 
+Creating temporary file "C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP91.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"./RiskGame.pdb" /debug /machine:I386 /out:"./RiskGame.exe" /pdbtype:sept 
+.\Debug\AiParamEditDlg.obj
+.\Debug\AiThread.obj
+.\Debug\DefaultAI.obj
+.\Debug\HorzScrollBar.obj
+.\Debug\MainFrm.obj
+.\Debug\MyBitmap.obj
+.\Debug\NumEdit.obj
+.\Debug\PlayerSetupDlg.obj
+.\Debug\RiskGame.obj
+.\Debug\RiskGameDoc.obj
+.\Debug\RiskGameView.obj
+.\Debug\StaticBitmap.obj
+.\Debug\StdAfx.obj
+.\Debug\RiskGame.res
+.\GameObjs.lib
+.\Rules.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\JIMPAT~1\LOCALS~1\Temp\RSP91.tmp"
+<h3>Output Window</h3>
+Compiling...
+DefaultAI.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+RiskGame.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

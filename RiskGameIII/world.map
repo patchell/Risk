@@ -1,0 +1,5385 @@
+MAP::"World"
+ WIDTH(3600)
+ HEIGHT(2250)
+ MERIDIAN SPACING(10)
+ MERIDIAN START(-170)
+ MERIDIAN END(190)
+ MERIDIAN WIDTH(1)
+ LONGITUDE SPACING(5)
+ LONGITUDE START(80)
+ LONGITUDE END(-70)
+ LONGITUDE WIDTH(1)
+ BORDER COLOR(RGB(0,0,0) )
+{
+ CONTINENT::"Asia"
+ VALUE(7)
+ {
+  TERRITORY::"Chuckhi"
+ LOCATION(3412,282)
+ VALUE(5)
+ COLOR( RGB (23,79,65))
+ADJ [
+"Alaska",
+"Buryat",
+"Kamchatca",
+"Yakust"
+]
+  TERRITORY::"Kamchatca"
+ LOCATION(3314,356)
+ VALUE(3)
+ COLOR( RGB (40,138,114))
+ADJ [
+"Buryat",
+"Chuckhi"
+]
+  TERRITORY::"Yakust"
+ LOCATION(3213,182)
+ VALUE(2)
+ COLOR( RGB (4,128,20))
+ADJ [
+"Buryat",
+"Chuckhi",
+"Taymar"
+]
+  TERRITORY::"Irkutsk"
+ LOCATION(2906,258)
+ VALUE(2)
+ COLOR( RGB (64,153,45))
+ADJ [
+"Buryat",
+"Manchuria",
+"Mongolia",
+"Siberia",
+"Taymar"
+]
+  TERRITORY::"Buryat"
+ LOCATION(3097,261)
+ VALUE(3)
+ COLOR( RGB (34,206,137))
+ADJ [
+"Chuckhi",
+"Irkutsk",
+"Kamchatca",
+"Manchuria",
+"Taymar",
+"Yakust"
+]
+  TERRITORY::"Taymar"
+ LOCATION(2960,174)
+ VALUE(2)
+ COLOR( RGB (22,156,147))
+ADJ [
+"Buryat",
+"Irkutsk",
+"Krasnoyarsk",
+"Siberia",
+"Yakust"
+]
+  TERRITORY::"Manchuria"
+ LOCATION(2991,396)
+ VALUE(3)
+ COLOR( RGB (16,95,63))
+ADJ [
+"Buryat",
+"China",
+"Irkutsk",
+"Mongolia"
+]
+  TERRITORY::"Mongolia"
+ LOCATION(2808,363)
+ VALUE(3)
+ COLOR( RGB (13,198,9))
+ADJ [
+"China",
+"Irkutsk",
+"Manchuria",
+"Siberia"
+]
+  TERRITORY::"China"
+ LOCATION(2671,525)
+ VALUE(8)
+ COLOR( RGB (7,107,5))
+ADJ [
+"Burma",
+"Formosa",
+"Kazakh",
+"Korea",
+"Luzon",
+"Manchuria",
+"Mongolia",
+"sakhalin",
+"Siam",
+"Siberia",
+"Tibet",
+"Tomak"
+]
+  TERRITORY::"Japan"
+ LOCATION(3073,644)
+ VALUE(2)
+ COLOR( RGB (89,136,11))
+ADJ [
+"Guam",
+"Hokkaido",
+"Korea"
+]
+  TERRITORY::"Korea"
+ LOCATION(2954,560)
+ VALUE(3)
+ COLOR( RGB (24,141,95))
+ADJ [
+"China",
+"Japan"
+]
+  TERRITORY::"Formosa"
+ LOCATION(2986,856)
+ VALUE(2)
+ COLOR( RGB (4,164,96))
+ADJ [
+"China",
+"Luzon"
+]
+  TERRITORY::"Burma"
+ LOCATION(2648,975)
+ VALUE(3)
+ COLOR( RGB (51,123,79))
+ADJ [
+"China",
+"India",
+"Malasia",
+"Siam",
+"Tibet"
+]
+  TERRITORY::"Siam"
+ LOCATION(2709,1040)
+ VALUE(6)
+ COLOR( RGB (23,164,153))
+ADJ [
+"Borneo",
+"Burma",
+"China",
+"Malasia"
+]
+  TERRITORY::"Luzon"
+ LOCATION(2983,974)
+ VALUE(2)
+ COLOR( RGB (2,87,51))
+ADJ [
+"China",
+"Formosa",
+"Guam",
+"Mindano"
+]
+  TERRITORY::"Mindano"
+ LOCATION(3032,1087)
+ VALUE(2)
+ COLOR( RGB (123,55,74))
+ADJ [
+"Luzon",
+"New Guiena"
+]
+  TERRITORY::"Malasia"
+ LOCATION(2701,1088)
+ VALUE(4)
+ COLOR( RGB (75,180,115))
+ADJ [
+"Burma",
+"Java",
+"Siam",
+"Sumatra"
+]
+  TERRITORY::"Sri Lanka"
+ LOCATION(2530,1132)
+ VALUE(1)
+ COLOR( RGB (0,255,0))
+ADJ [
+"India"
+]
+  TERRITORY::"India"
+ LOCATION(2481,947)
+ VALUE(3)
+ COLOR( RGB (10,139,94))
+ADJ [
+"Burma",
+"Pakastan",
+"Sri Lanka",
+"Tibet"
+]
+  TERRITORY::"Tibet"
+ LOCATION(2551,760)
+ VALUE(3)
+ COLOR( RGB (70,136,128))
+ADJ [
+"Afganestan",
+"Burma",
+"China",
+"India",
+"Kazakh",
+"Pakastan"
+]
+  TERRITORY::"Pakastan"
+ LOCATION(2389,870)
+ VALUE(5)
+ COLOR( RGB (7,101,68))
+ADJ [
+"Afganestan",
+"India",
+"Persia",
+"Tibet"
+]
+  TERRITORY::"Afganestan"
+ LOCATION(2383,758)
+ VALUE(5)
+ COLOR( RGB (61,84,24))
+ADJ [
+"Kazakh",
+"Pakastan",
+"Persia",
+"Tibet"
+]
+  TERRITORY::"Kazakh"
+ LOCATION(2349,575)
+ VALUE(5)
+ COLOR( RGB (105,143,41))
+ADJ [
+"Afganestan",
+"China",
+"Persia",
+"Tibet",
+"Tomak",
+"Urals"
+]
+  TERRITORY::"Siberia"
+ LOCATION(2721,262)
+ VALUE(2)
+ COLOR( RGB (54,132,38))
+ADJ [
+"China",
+"Irkutsk",
+"Krasnoyarsk",
+"Mongolia",
+"Taymar",
+"Tomak"
+]
+  TERRITORY::"Koni"
+ LOCATION(2338,210)
+ VALUE(4)
+ COLOR( RGB (17,247,108))
+ADJ [
+"Konti Marsi",
+"Tomak",
+"Urals"
+]
+  TERRITORY::"Konti Marsi"
+ LOCATION(2502,204)
+ VALUE(3)
+ COLOR( RGB (6,172,72))
+ADJ [
+"Koni",
+"Krasnoyarsk",
+"Tomak"
+]
+  TERRITORY::"Urals"
+ LOCATION(2193,264)
+ VALUE(5)
+ COLOR( RGB (3,80,34))
+ADJ [
+"Kazakh",
+"Koni",
+"Rusia",
+"Tomak",
+"Ukraine"
+]
+  TERRITORY::"Tomak"
+ LOCATION(2374,356)
+ VALUE(2)
+ COLOR( RGB (11,157,106))
+ADJ [
+"China",
+"Kazakh",
+"Koni",
+"Konti Marsi",
+"Krasnoyarsk",
+"Siberia",
+"Urals"
+]
+  TERRITORY::"Krasnoyarsk"
+ LOCATION(2661,183)
+ VALUE(2)
+ COLOR( RGB (54,248,132))
+ADJ [
+"Konti Marsi",
+"Siberia",
+"Taymar",
+"Tomak"
+]
+  TERRITORY::"Hokkaido"
+ LOCATION(3126,577)
+ VALUE(2)
+ COLOR( RGB (89,136,11))
+ADJ [
+"Japan",
+"sakhalin"
+]
+  TERRITORY::"sakhalin"
+ LOCATION(3122,491)
+ VALUE(2)
+ COLOR( RGB (119,181,15))
+ADJ [
+"China",
+"Hokkaido"
+]
+ }
+ CONTINENT::"Africa"
+ VALUE(4)
+ {
+  TERRITORY::"Morrocco"
+ LOCATION(1526,835)
+ VALUE(5)
+ COLOR( RGB (46,54,205))
+ADJ [
+"Algeria",
+"Mali",
+"Spain"
+]
+  TERRITORY::"Algeria"
+ LOCATION(1625,882)
+ VALUE(2)
+ COLOR( RGB (101,107,220))
+ADJ [
+"Chad",
+"Italy",
+"Libya",
+"Mali",
+"Morrocco",
+"Nigeria"
+]
+  TERRITORY::"Libya"
+ LOCATION(1847,920)
+ VALUE(2)
+ COLOR( RGB (75,147,226))
+ADJ [
+"Algeria",
+"Chad",
+"Egypt"
+]
+  TERRITORY::"Egypt"
+ LOCATION(1980,907)
+ VALUE(4)
+ COLOR( RGB (20,71,126))
+ADJ [
+"Libya",
+"Palestine",
+"Sudan"
+]
+  TERRITORY::"Mali"
+ LOCATION(1596,1021)
+ VALUE(2)
+ COLOR( RGB (35,41,156))
+ADJ [
+"Algeria",
+"Morrocco",
+"Nigeria"
+]
+  TERRITORY::"Nigeria"
+ LOCATION(1710,1043)
+ VALUE(2)
+ COLOR( RGB (20,64,154))
+ADJ [
+"Algeria",
+"Chad",
+"Congo",
+"Mali"
+]
+  TERRITORY::"Chad"
+ LOCATION(1833,1001)
+ VALUE(2)
+ COLOR( RGB (26,51,85))
+ADJ [
+"Algeria",
+"Congo",
+"Ethiopia",
+"Libya",
+"Nigeria",
+"Sudan"
+]
+  TERRITORY::"Sudan"
+ LOCATION(1970,978)
+ VALUE(4)
+ COLOR( RGB (97,103,220))
+ADJ [
+"Chad",
+"Egypt",
+"Ethiopia"
+]
+  TERRITORY::"Congo"
+ LOCATION(1863,1175)
+ VALUE(3)
+ COLOR( RGB (95,72,183))
+ADJ [
+"Angola",
+"Chad",
+"Ethiopia",
+"Kenya",
+"Nigeria",
+"Zambia"
+]
+  TERRITORY::"Ethiopia"
+ LOCATION(2039,1042)
+ VALUE(3)
+ COLOR( RGB (46,90,150))
+ADJ [
+"Chad",
+"Congo",
+"Kenya",
+"Sudan"
+]
+  TERRITORY::"Kenya"
+ LOCATION(2031,1213)
+ VALUE(2)
+ COLOR( RGB (71,54,228))
+ADJ [
+"Congo",
+"Ethiopia",
+"Tanzania",
+"Zambia"
+]
+  TERRITORY::"Angola"
+ LOCATION(1825,1422)
+ VALUE(2)
+ COLOR( RGB (11,58,102))
+ADJ [
+"Congo",
+"South Africa",
+"Tanzania",
+"Zambia"
+]
+  TERRITORY::"Zambia"
+ LOCATION(1892,1313)
+ VALUE(2)
+ COLOR( RGB (19,107,187))
+ADJ [
+"Angola",
+"Congo",
+"Kenya",
+"Tanzania"
+]
+  TERRITORY::"Tanzania"
+ LOCATION(1973,1465)
+ VALUE(2)
+ COLOR( RGB (106,92,233))
+ADJ [
+"Angola",
+"Kenya",
+"South Africa",
+"Zambia"
+]
+  TERRITORY::"South Africa"
+ LOCATION(1904,1648)
+ VALUE(3)
+ COLOR( RGB (34,20,156))
+ADJ [
+"Angola",
+"Antartica",
+"Madagascar",
+"Tanzania"
+]
+  TERRITORY::"Madagascar"
+ LOCATION(2176,1641)
+ VALUE(2)
+ COLOR( RGB (48,29,224))
+ADJ [
+"South Africa"
+]
+ }
+ CONTINENT::"Austrailia"
+ VALUE(3)
+ {
+  TERRITORY::"Sumatra"
+ LOCATION(2659,1186)
+ VALUE(5)
+ COLOR( RGB (255,47,203))
+ADJ [
+"Java",
+"Malasia"
+]
+  TERRITORY::"Java"
+ LOCATION(2741,1271)
+ VALUE(5)
+ COLOR( RGB (217,0,163))
+ADJ [
+"Borneo",
+"Malasia",
+"Sumatra"
+]
+  TERRITORY::"New Guiena"
+ LOCATION(3103,1267)
+ VALUE(3)
+ COLOR( RGB (164,72,98))
+ADJ [
+"Borneo",
+"Mindano",
+"Queens Land"
+]
+  TERRITORY::"North New Zealand"
+ LOCATION(3492,1720)
+ VALUE(4)
+ COLOR( RGB (100,0,100))
+ADJ [
+"South New Zealand"
+]
+  TERRITORY::"South New Zealand"
+ LOCATION(3411,1801)
+ VALUE(3)
+ COLOR( RGB (100,0,100))
+ADJ [
+"North New Zealand",
+"Tazmania"
+]
+  TERRITORY::"Victoria"
+ LOCATION(3142,1663)
+ VALUE(3)
+ COLOR( RGB (156,31,156))
+ADJ [
+"New South Wales",
+"South Austraila",
+"Tazmania"
+]
+  TERRITORY::"New South Wales"
+ LOCATION(3169,1599)
+ VALUE(3)
+ COLOR( RGB (215,53,215))
+ADJ [
+"Queens Land",
+"South Austraila",
+"Victoria"
+]
+  TERRITORY::"Queens Land"
+ LOCATION(3133,1472)
+ VALUE(3)
+ COLOR( RGB (186,112,179))
+ADJ [
+"New Guiena",
+"New South Wales",
+"North West Territory",
+"South Austraila"
+]
+  TERRITORY::"South Austraila"
+ LOCATION(3010,1611)
+ VALUE(2)
+ COLOR( RGB (112,54,106))
+ADJ [
+"New South Wales",
+"North West Territory",
+"Queens Land",
+"Victoria",
+"Western Austrailia"
+]
+  TERRITORY::"North West Territory"
+ LOCATION(3003,1501)
+ VALUE(3)
+ COLOR( RGB (98,19,98))
+ADJ [
+"Queens Land",
+"South Austraila",
+"Western Austrailia"
+]
+  TERRITORY::"Western Austrailia"
+ LOCATION(2872,1566)
+ VALUE(3)
+ COLOR( RGB (147,70,139))
+ADJ [
+"Borneo",
+"North West Territory",
+"South Austraila"
+]
+  TERRITORY::"Tazmania"
+ LOCATION(3201,1749)
+ VALUE(2)
+ COLOR( RGB (168,0,168))
+ADJ [
+"Antartica",
+"South New Zealand",
+"Victoria"
+]
+  TERRITORY::"Borneo"
+ LOCATION(2873,1223)
+ VALUE(5)
+ COLOR( RGB (199,126,147))
+ADJ [
+"Java",
+"New Guiena",
+"Siam",
+"Western Austrailia"
+]
+ }
+ CONTINENT::"Central America"
+ VALUE(3)
+ {
+  TERRITORY::"Baja California"
+ LOCATION(526,749)
+ VALUE(2)
+ COLOR( RGB (64,83,191))
+ADJ [
+"California",
+"Sonora"
+]
+  TERRITORY::"Cuba"
+ LOCATION(882,843)
+ VALUE(4)
+ COLOR( RGB (11,70,111))
+ADJ [
+"Florida",
+"Hispanola",
+"Yukatan"
+]
+  TERRITORY::"Hispanola"
+ LOCATION(977,853)
+ VALUE(1)
+ COLOR( RGB (16,104,163))
+ADJ [
+"Cuba"
+]
+  TERRITORY::"Yukatan"
+ LOCATION(793,973)
+ VALUE(2)
+ COLOR( RGB (46,209,112))
+ADJ [
+"Cuba",
+"Durango",
+"Panama"
+]
+  TERRITORY::"Panama"
+ LOCATION(845,1026)
+ VALUE(5)
+ COLOR( RGB (64,128,255))
+ADJ [
+"Columbia",
+"Yukatan"
+]
+  TERRITORY::"Sonora"
+ LOCATION(591,781)
+ VALUE(3)
+ COLOR( RGB (79,225,30))
+ADJ [
+"Baja California",
+"California",
+"Chihuahua",
+"Durango",
+"Nevada",
+"New Mexico",
+"Texas"
+]
+  TERRITORY::"Chihuahua"
+ LOCATION(699,824)
+ VALUE(3)
+ COLOR( RGB (60,196,151))
+ADJ [
+"Durango",
+"Sonora",
+"Texas"
+]
+  TERRITORY::"Durango"
+ LOCATION(687,898)
+ VALUE(3)
+ COLOR( RGB (219,228,27))
+ADJ [
+"Chihuahua",
+"Sonora",
+"Yukatan"
+]
+ }
+ CONTINENT::"Middle East"
+ VALUE(3)
+ {
+  TERRITORY::"Arabia"
+ LOCATION(2122,899)
+ VALUE(5)
+ COLOR( RGB (74,115,181))
+ADJ [
+"Iraq",
+"Palestine",
+"Syria"
+]
+  TERRITORY::"Persia"
+ LOCATION(2183,676)
+ VALUE(5)
+ COLOR( RGB (32,142,179))
+ADJ [
+"Afganestan",
+"Iraq",
+"Kazakh",
+"Pakastan",
+"Turkey",
+"Ukraine"
+]
+  TERRITORY::"Iraq"
+ LOCATION(2115,721)
+ VALUE(3)
+ COLOR( RGB (67,146,203))
+ADJ [
+"Arabia",
+"Persia",
+"Syria",
+"Turkey"
+]
+  TERRITORY::"Palestine"
+ LOCATION(2071,816)
+ VALUE(5)
+ COLOR( RGB (123,153,202))
+ADJ [
+"Arabia",
+"Egypt",
+"Syria"
+]
+  TERRITORY::"Syria"
+ LOCATION(2080,757)
+ VALUE(3)
+ COLOR( RGB (34,52,83))
+ADJ [
+"Arabia",
+"Iraq",
+"Palestine",
+"Turkey"
+]
+  TERRITORY::"Turkey"
+ LOCATION(2016,639)
+ VALUE(5)
+ COLOR( RGB (38,96,138))
+ADJ [
+"Iraq",
+"Persia",
+"Romania",
+"Syria",
+"Ukraine"
+]
+ }
+ CONTINENT::"Antartica"
+ VALUE(1)
+ {
+  TERRITORY::"Antartica"
+ LOCATION(2029,2218)
+ VALUE(1)
+ COLOR( RGB (183,183,183))
+ADJ [
+"Chile",
+"South Africa",
+"Tazmania"
+]
+ }
+ CONTINENT::"Europe"
+ VALUE(5)
+ {
+  TERRITORY::"Rusia"
+ LOCATION(2045,288)
+ VALUE(5)
+ COLOR( RGB (255,255,0))
+ADJ [
+"Finnland",
+"Lithuanea",
+"Poland",
+"Ukraine",
+"Urals"
+]
+  TERRITORY::"Greece"
+ LOCATION(1863,673)
+ VALUE(3)
+ COLOR( RGB (175,168,78))
+ADJ [
+"Italy",
+"Yugoslavia"
+]
+  TERRITORY::"Ukraine"
+ LOCATION(2042,451)
+ VALUE(5)
+ COLOR( RGB (132,132,0))
+ADJ [
+"Persia",
+"Poland",
+"Romania",
+"Rusia",
+"Turkey",
+"Urals"
+]
+  TERRITORY::"Romania"
+ LOCATION(1907,520)
+ VALUE(4)
+ COLOR( RGB (199,132,103))
+ADJ [
+"Austria",
+"Germany",
+"Poland",
+"Turkey",
+"Ukraine",
+"Yugoslavia"
+]
+  TERRITORY::"Lithuanea"
+ LOCATION(1958,361)
+ VALUE(2)
+ COLOR( RGB (185,179,98))
+ADJ [
+"Poland",
+"Rusia"
+]
+  TERRITORY::"Finnland"
+ LOCATION(1968,158)
+ VALUE(1)
+ COLOR( RGB (103,94,37))
+ADJ [
+"Rusia",
+"Sweeden"
+]
+  TERRITORY::"Sweeden"
+ LOCATION(1869,186)
+ VALUE(3)
+ COLOR( RGB (198,183,100))
+ADJ [
+"Finnland",
+"Norway"
+]
+  TERRITORY::"Norway"
+ LOCATION(1819,264)
+ VALUE(3)
+ COLOR( RGB (174,92,81))
+ADJ [
+"Denmark",
+"Sweeden"
+]
+  TERRITORY::"Poland"
+ LOCATION(1905,451)
+ VALUE(3)
+ COLOR( RGB (107,103,48))
+ADJ [
+"Germany",
+"Lithuanea",
+"Romania",
+"Rusia",
+"Ukraine"
+]
+  TERRITORY::"Austria"
+ LOCATION(1789,578)
+ VALUE(3)
+ COLOR( RGB (102,57,38))
+ADJ [
+"France",
+"Germany",
+"Italy",
+"Romania",
+"Yugoslavia"
+]
+  TERRITORY::"Italy"
+ LOCATION(1738,630)
+ VALUE(3)
+ COLOR( RGB (238,135,72))
+ADJ [
+"Algeria",
+"Austria",
+"France",
+"Greece"
+]
+  TERRITORY::"Germany"
+ LOCATION(1756,511)
+ VALUE(3)
+ COLOR( RGB (140,26,37))
+ADJ [
+"Austria",
+"Denmark",
+"England",
+"France",
+"Poland",
+"Romania"
+]
+  TERRITORY::"France"
+ LOCATION(1622,533)
+ VALUE(4)
+ COLOR( RGB (152,66,14))
+ADJ [
+"Austria",
+"England",
+"Germany",
+"Irerland",
+"Italy",
+"Spain"
+]
+  TERRITORY::"Spain"
+ LOCATION(1548,667)
+ VALUE(5)
+ COLOR( RGB (235,112,37))
+ADJ [
+"France",
+"Morrocco"
+]
+  TERRITORY::"England"
+ LOCATION(1640,411)
+ VALUE(4)
+ COLOR( RGB (236,155,19))
+ADJ [
+"Fauklin Islands",
+"France",
+"Germany",
+"Irerland",
+"Scottland"
+]
+  TERRITORY::"Scottland"
+ LOCATION(1652,251)
+ VALUE(3)
+ COLOR( RGB (177,116,60))
+ADJ [
+"England"
+]
+  TERRITORY::"Irerland"
+ LOCATION(1553,349)
+ VALUE(4)
+ COLOR( RGB (125,83,11))
+ADJ [
+"England",
+"France",
+"Iceland"
+]
+  TERRITORY::"Iceland"
+ LOCATION(1359,311)
+ VALUE(5)
+ COLOR( RGB (255,255,0))
+ADJ [
+"Green Land",
+"Irerland"
+]
+  TERRITORY::"Denmark"
+ LOCATION(1812,360)
+ VALUE(3)
+ COLOR( RGB (219,62,78))
+ADJ [
+"Germany",
+"Norway"
+]
+  TERRITORY::"Yugoslavia"
+ LOCATION(1832,625)
+ VALUE(3)
+ COLOR( RGB (128,122,57))
+ADJ [
+"Austria",
+"Greece",
+"Romania"
+]
+ }
+ CONTINENT::"North America"
+ VALUE(5)
+ {
+  TERRITORY::"Alaska"
+ LOCATION(180,213)
+ VALUE(5)
+ COLOR( RGB (64,128,255))
+ADJ [
+"British Columbia",
+"Chuckhi",
+"Yukon"
+]
+  TERRITORY::"Northwest Territory"
+ LOCATION(436,196)
+ VALUE(2)
+ COLOR( RGB (16,110,255))
+ADJ [
+"Alberta",
+"British Columbia",
+"Manitoba",
+"Ontario",
+"Yukon"
+]
+  TERRITORY::"Yukon"
+ LOCATION(321,271)
+ VALUE(2)
+ COLOR( RGB (16,150,255))
+ADJ [
+"Alaska",
+"British Columbia",
+"Northwest Territory"
+]
+  TERRITORY::"British Columbia"
+ LOCATION(400,368)
+ VALUE(3)
+ COLOR( RGB (40,190,210))
+ADJ [
+"Alaska",
+"Alberta",
+"Northwest Territory",
+"Oregon",
+"Yukon"
+]
+  TERRITORY::"Alberta"
+ LOCATION(503,448)
+ VALUE(2)
+ COLOR( RGB (0,130,190))
+ADJ [
+"British Columbia",
+"Dakota",
+"Manitoba",
+"Northwest Territory",
+"Oregon"
+]
+  TERRITORY::"Manitoba"
+ LOCATION(617,415)
+ VALUE(2)
+ COLOR( RGB (16,170,230))
+ADJ [
+"Alberta",
+"Dakota",
+"Northwest Territory",
+"Ontario"
+]
+  TERRITORY::"Ontario"
+ LOCATION(786,402)
+ VALUE(2)
+ COLOR( RGB (80,110,200))
+ADJ [
+"Dakota",
+"Manitoba",
+"Minnasota",
+"Northwest Territory",
+"Ohio",
+"Quebec"
+]
+  TERRITORY::"Quebec"
+ LOCATION(995,414)
+ VALUE(3)
+ COLOR( RGB (64,50,200))
+ADJ [
+"Green Land",
+"Nova Scocia",
+"Ontario"
+]
+  TERRITORY::"Nova Scocia"
+ LOCATION(1032,537)
+ VALUE(2)
+ COLOR( RGB (169,47,242))
+ADJ [
+"Maine",
+"New York",
+"Ohio",
+"Quebec"
+]
+  TERRITORY::"Green Land"
+ LOCATION(1182,191)
+ VALUE(4)
+ COLOR( RGB (128,128,0))
+ADJ [
+"Iceland",
+"Quebec"
+]
+  TERRITORY::"Oregon"
+ LOCATION(486,548)
+ VALUE(2)
+ COLOR( RGB (64,40,255))
+ADJ [
+"Alberta",
+"British Columbia",
+"California",
+"Dakota",
+"Nevada"
+]
+  TERRITORY::"Ohio"
+ LOCATION(888,600)
+ VALUE(2)
+ COLOR( RGB (218,67,222))
+ADJ [
+"Lousianna",
+"Minnasota",
+"New York",
+"Nova Scocia",
+"Oklahoma",
+"Ontario",
+"Virginia"
+]
+  TERRITORY::"Dakota"
+ LOCATION(584,536)
+ VALUE(2)
+ COLOR( RGB (84,40,255))
+ADJ [
+"Alberta",
+"Manitoba",
+"Minnasota",
+"Nevada",
+"New Mexico",
+"Oklahoma",
+"Ontario",
+"Oregon"
+]
+  TERRITORY::"New York"
+ LOCATION(984,581)
+ VALUE(2)
+ COLOR( RGB (88,40,180))
+ADJ [
+"Maine",
+"Nova Scocia",
+"Ohio",
+"Virginia"
+]
+  TERRITORY::"Maine"
+ LOCATION(1074,542)
+ VALUE(2)
+ COLOR( RGB (88,40,250))
+ADJ [
+"New York",
+"Nova Scocia"
+]
+  TERRITORY::"California"
+ LOCATION(494,653)
+ VALUE(3)
+ COLOR( RGB (100,80,240))
+ADJ [
+"Baja California",
+"Hawaii",
+"Nevada",
+"Oregon",
+"Sonora"
+]
+  TERRITORY::"Nevada"
+ LOCATION(553,640)
+ VALUE(2)
+ COLOR( RGB (130,60,230))
+ADJ [
+"California",
+"Dakota",
+"New Mexico",
+"Oregon",
+"Sonora"
+]
+  TERRITORY::"Oklahoma"
+ LOCATION(768,632)
+ VALUE(2)
+ COLOR( RGB (6,249,188))
+ADJ [
+"Dakota",
+"Lousianna",
+"Minnasota",
+"New Mexico",
+"Ohio",
+"Texas"
+]
+  TERRITORY::"Virginia"
+ LOCATION(977,665)
+ VALUE(2)
+ COLOR( RGB (64,83,191))
+ADJ [
+"Carolina",
+"Lousianna",
+"New York",
+"Ohio"
+]
+  TERRITORY::"Texas"
+ LOCATION(708,708)
+ VALUE(3)
+ COLOR( RGB (73,35,254))
+ADJ [
+"Chihuahua",
+"Florida",
+"Lousianna",
+"New Mexico",
+"Oklahoma",
+"Sonora"
+]
+  TERRITORY::"Florida"
+ LOCATION(878,741)
+ VALUE(3)
+ COLOR( RGB (22,227,233))
+ADJ [
+"Carolina",
+"Cuba",
+"Lousianna",
+"Texas"
+]
+  TERRITORY::"Minnasota"
+ LOCATION(776,564)
+ VALUE(2)
+ COLOR( RGB (16,184,239))
+ADJ [
+"Dakota",
+"Ohio",
+"Oklahoma",
+"Ontario"
+]
+  TERRITORY::"New Mexico"
+ LOCATION(631,635)
+ VALUE(2)
+ COLOR( RGB (30,122,225))
+ADJ [
+"Dakota",
+"Nevada",
+"Oklahoma",
+"Sonora",
+"Texas"
+]
+  TERRITORY::"Carolina"
+ LOCATION(944,714)
+ VALUE(2)
+ COLOR( RGB (60,155,196))
+ADJ [
+"Florida",
+"Lousianna",
+"Virginia"
+]
+  TERRITORY::"Lousianna"
+ LOCATION(878,692)
+ VALUE(3)
+ COLOR( RGB (60,155,196))
+ADJ [
+"Carolina",
+"Florida",
+"Ohio",
+"Oklahoma",
+"Texas",
+"Virginia"
+]
+ }
+ CONTINENT::"South America"
+ VALUE(3)
+ {
+  TERRITORY::"Venezuela"
+ LOCATION(1023,1084)
+ VALUE(3)
+ COLOR( RGB (68,123,73))
+ADJ [
+"Brazil",
+"Columbia"
+]
+  TERRITORY::"Columbia"
+ LOCATION(964,1158)
+ VALUE(4)
+ COLOR( RGB (21,234,170))
+ADJ [
+"Brazil",
+"Panama",
+"Peru",
+"Venezuela"
+]
+  TERRITORY::"Brazil"
+ LOCATION(1197,1331)
+ VALUE(4)
+ COLOR( RGB (128,128,64))
+ADJ [
+"Bolivia",
+"Columbia",
+"Paraguay",
+"Peru",
+"Uraguay",
+"Venezuela"
+]
+  TERRITORY::"Peru"
+ LOCATION(999,1345)
+ VALUE(2)
+ COLOR( RGB (0,64,0))
+ADJ [
+"Bolivia",
+"Brazil",
+"Chile",
+"Columbia",
+"Easter Island",
+"Hawaii"
+]
+  TERRITORY::"Bolivia"
+ LOCATION(1128,1433)
+ VALUE(2)
+ COLOR( RGB (89,177,24))
+ADJ [
+"Brazil",
+"Chile",
+"Paraguay",
+"Peru"
+]
+  TERRITORY::"Paraguay"
+ LOCATION(1173,1533)
+ VALUE(2)
+ COLOR( RGB (115,82,66))
+ADJ [
+"Argentina",
+"Bolivia",
+"Brazil",
+"Chile",
+"Uraguay"
+]
+  TERRITORY::"Uraguay"
+ LOCATION(1241,1543)
+ VALUE(2)
+ COLOR( RGB (148,194,37))
+ADJ [
+"Argentina",
+"Brazil",
+"Paraguay"
+]
+  TERRITORY::"Chile"
+ LOCATION(1087,1628)
+ VALUE(2)
+ COLOR( RGB (49,142,77))
+ADJ [
+"Antartica",
+"Argentina",
+"Bolivia",
+"Easter Island",
+"Paraguay",
+"Peru"
+]
+  TERRITORY::"Argentina"
+ LOCATION(1156,1689)
+ VALUE(2)
+ COLOR( RGB (0,255,0))
+ADJ [
+"Chile",
+"Fauklin Islands",
+"Paraguay",
+"Uraguay"
+]
+ }
+ CONTINENT::"South Pacific"
+ VALUE(2)
+ {
+  TERRITORY::"Hawaii"
+ LOCATION(197,893)
+ VALUE(3)
+ COLOR( RGB (255,0,0))
+ADJ [
+"California",
+"Guam",
+"Midway",
+"Peru"
+]
+  TERRITORY::"Guam"
+ LOCATION(3237,922)
+ VALUE(2)
+ COLOR( RGB (175,167,12))
+ADJ [
+"Hawaii",
+"Japan",
+"Luzon",
+"Midway"
+]
+  TERRITORY::"Midway"
+ LOCATION(105,750)
+ VALUE(3)
+ COLOR( RGB (255,128,128))
+ADJ [
+"Guam",
+"Hawaii"
+]
+  TERRITORY::"Easter Island"
+ LOCATION(801,1567)
+ VALUE(1)
+ COLOR( RGB (175,154,54))
+ADJ [
+"Chile",
+"Peru"
+]
+ }
+ CONTINENT::"Atlantic"
+ VALUE(1)
+ {
+  TERRITORY::"Fauklin Islands"
+ LOCATION(1299,1974)
+ VALUE(4)
+ COLOR( RGB (56,177,135))
+ADJ [
+"Argentina",
+"England"
+]
+ }
+}
+POLYGON::("Alaska")[
+  (285,131)
+  (233,144)
+  (219,133)
+  (192,147)
+  (177,138)
+  (170,138)
+  (161,145)
+  (140,144)
+  (126,146)
+  (98,161)
+  (93,194)
+  (39,212)
+  (38,215)
+  (86,236)
+  (97,251)
+  (80,275)
+  (34,282)
+  (32,288)
+  (76,308)
+  (73,316)
+  (52,318)
+  (52,322)
+  (85,328)
+  (91,335)
+  (82,355)
+  (63,369)
+  (73,368)
+  (88,358)
+  (96,349)
+  (106,344)
+  (140,344)
+  (166,329)
+  (194,325)
+  (226,335)
+  (236,335)
+  (270,342)
+  (280,344)
+  (293,353)
+  (316,385)
+  (333,397)
+  (356,415)
+  (369,435)
+  (371,435)
+  (370,399)
+  (358,393)
+  (339,373)
+  (330,358)
+  (288,324)
+  (288,320)
+  (289,317)
+  (286,147)
+]
+POLYGON::("Yukon")[
+  (288,130)
+  (307,127)
+  (310,153)
+  (318,179)
+  (320,196)
+  (354,233)
+  (354,243)
+  (370,265)
+  (375,277)
+  (379,280)
+  (403,336)
+  (350,336)
+  (303,332)
+  (290,323)
+  (289,269)
+]
+POLYGON::("Northwest Territory")[
+  (492,344)
+  (405,336)
+  (375,273)
+  (355,243)
+  (354,232)
+  (320,196)
+  (317,172)
+  (310,146)
+  (308,128)
+  (319,133)
+  (343,159)
+  (352,164)
+  (363,158)
+  (381,142)
+  (389,139)
+  (405,142)
+  (411,149)
+  (422,142)
+  (427,147)
+  (485,129)
+  (499,129)
+  (512,155)
+  (524,159)
+  (550,159)
+  (569,151)
+  (573,141)
+  (580,141)
+  (592,150)
+  (597,146)
+  (602,138)
+  (625,138)
+  (634,147)
+  (643,147)
+  (676,143)
+  (686,140)
+  (700,150)
+  (702,150)
+  (706,160)
+  (715,161)
+  (722,170)
+  (739,167)
+  (746,164)
+  (765,139)
+  (775,135)
+  (788,135)
+  (808,141)
+  (812,146)
+  (820,146)
+  (827,144)
+  (839,140)
+  (846,140)
+  (863,153)
+  (874,154)
+  (898,163)
+  (902,167)
+  (903,176)
+  (860,200)
+  (809,207)
+  (800,222)
+  (798,238)
+  (785,256)
+  (785,285)
+  (751,309)
+  (741,311)
+  (708,319)
+  (699,324)
+  (688,342)
+  (659,339)
+  (594,337)
+  (565,343)
+  (543,342)
+  (543,345)
+  (536,345)
+]
+POLYGON::("British Columbia")[
+  (465,507)
+  (460,508)
+  (456,509)
+  (415,509)
+  (397,469)
+  (372,438)
+  (372,400)
+  (355,389)
+  (332,357)
+  (304,334)
+  (458,341)
+  (459,352)
+  (462,359)
+]
+POLYGON::("Alberta")[
+  (461,343)
+  (543,346)
+  (546,426)
+  (549,443)
+  (546,462)
+  (547,497)
+  (548,508)
+  (466,506)
+  (463,362)
+]
+POLYGON::("Manitoba")[
+  (546,344)
+  (564,346)
+  (592,337)
+  (685,342)
+  (690,430)
+  (696,452)
+  (698,501)
+  (623,501)
+  (584,510)
+  (549,509)
+  (547,457)
+  (548,442)
+  (546,424)
+]
+POLYGON::("Ontario")[
+  (699,502)
+  (696,444)
+  (690,425)
+  (686,343)
+  (701,323)
+  (747,311)
+  (785,287)
+  (791,304)
+  (804,312)
+  (813,292)
+  (819,293)
+  (837,331)
+  (851,367)
+  (856,399)
+  (862,411)
+  (865,411)
+  (894,447)
+  (904,447)
+  (906,491)
+  (908,498)
+  (908,532)
+  (896,532)
+  (887,514)
+  (883,511)
+  (883,496)
+  (877,491)
+  (817,498)
+  (795,506)
+  (795,510)
+  (723,506)
+]
+POLYGON::("Midway")[
+  (95,738)
+  (106,738)
+  (116,752)
+  (113,760)
+  (99,763)
+  (92,758)
+  (87,750)
+]
+POLYGON::("Hawaii")[
+  (181,854)
+  (183,886)
+  (173,912)
+  (178,925)
+  (212,927)
+  (219,921)
+  (220,906)
+  (219,882)
+  (197,863)
+  (192,850)
+]
+POLYGON::("Fauklin Islands")[
+  (1275,1955)
+  (1274,1998)
+  (1302,2017)
+  (1312,2017)
+  (1324,1966)
+  (1320,1961)
+  (1285,1954)
+]
+POLYGON::("Easter Island")[
+  (796,1553)
+  (809,1555)
+  (815,1565)
+  (811,1587)
+  (805,1595)
+  (793,1588)
+  (796,1578)
+  (793,1575)
+  (792,1559)
+]
+POLYGON::("Quebec")[
+  (905,448)
+  (918,430)
+  (918,411)
+  (925,402)
+  (926,368)
+  (916,350)
+  (911,331)
+  (892,302)
+  (895,288)
+  (911,272)
+  (942,272)
+  (954,278)
+  (962,291)
+  (977,315)
+  (1003,322)
+  (1035,322)
+  (1048,318)
+  (1052,312)
+  (1055,300)
+  (1063,289)
+  (1072,283)
+  (1077,288)
+  (1074,302)
+  (1076,325)
+  (1081,330)
+  (1081,347)
+  (1093,364)
+  (1101,369)
+  (1101,373)
+  (1090,384)
+  (1086,414)
+  (1085,420)
+  (1098,441)
+  (1131,450)
+  (1137,461)
+  (1136,480)
+  (1127,489)
+  (1108,489)
+  (1106,489)
+  (1053,509)
+  (1015,511)
+  (996,530)
+  (982,533)
+  (947,530)
+  (940,528)
+  (928,528)
+  (928,528)
+  (919,532)
+  (908,532)
+]
+POLYGON::("Nova Scocia")[
+  (1100,514)
+  (1109,523)
+  (1104,531)
+  (1104,547)
+  (1099,549)
+  (1087,536)
+  (1064,533)
+  (1052,540)
+  (1018,550)
+  (996,566)
+  (988,566)
+  (953,569)
+  (937,569)
+  (937,566)
+  (926,551)
+  (940,548)
+  (956,542)
+  (967,542)
+  (981,540)
+  (1046,518)
+  (1061,513)
+]
+POLYGON::("Oregon")[
+  (416,510)
+  (457,511)
+  (468,508)
+  (502,509)
+  (531,510)
+  (530,580)
+  (529,591)
+  (456,591)
+  (434,542)
+]
+POLYGON::("Dakota")[
+  (534,512)
+  (584,511)
+  (624,503)
+  (694,505)
+  (725,506)
+  (725,534)
+  (713,594)
+  (683,594)
+  (655,592)
+  (627,592)
+  (595,590)
+  (583,594)
+  (548,594)
+  (541,591)
+  (530,591)
+]
+POLYGON::("Minnasota")[
+  (727,507)
+  (794,511)
+  (793,521)
+  (794,533)
+  (800,538)
+  (820,536)
+  (820,536)
+  (855,513)
+  (863,513)
+  (880,516)
+  (879,519)
+  (875,523)
+  (856,524)
+  (835,541)
+  (836,544)
+  (836,568)
+  (830,578)
+  (829,591)
+  (714,594)
+  (725,530)
+]
+POLYGON::("Ohio")[
+  (834,585)
+  (848,594)
+  (854,594)
+  (863,545)
+  (867,539)
+  (890,538)
+  (901,568)
+  (904,585)
+  (907,587)
+  (916,587)
+  (924,579)
+  (924,574)
+  (917,568)
+  (917,557)
+  (925,550)
+  (936,565)
+  (936,568)
+  (954,571)
+  (952,576)
+  (952,576)
+  (951,643)
+  (939,647)
+  (923,647)
+  (850,642)
+  (838,641)
+  (834,643)
+  (833,604)
+  (835,602)
+  (835,600)
+  (832,600)
+]
+POLYGON::("New York")[
+  (954,569)
+  (960,568)
+  (996,566)
+  (1019,551)
+  (1038,545)
+  (1054,570)
+  (1039,578)
+  (1024,617)
+  (1024,628)
+  (951,626)
+  (951,609)
+]
+POLYGON::("Maine")[
+  (1041,546)
+  (1068,536)
+  (1083,536)
+  (1097,547)
+  (1053,570)
+]
+POLYGON::("Virginia")[
+  (952,628)
+  (1020,630)
+  (1022,630)
+  (1014,661)
+  (1012,687)
+  (1001,713)
+  (963,701)
+  (936,686)
+  (941,675)
+  (942,646)
+  (951,642)
+]
+POLYGON::("Carolina")[
+  (935,685)
+  (967,705)
+  (967,705)
+  (1002,715)
+  (992,722)
+  (939,748)
+  (933,749)
+  (933,741)
+  (922,728)
+  (912,728)
+  (912,720)
+  (926,700)
+]
+POLYGON::("Lousianna")[
+  (833,643)
+  (843,642)
+  (939,647)
+  (940,673)
+  (934,685)
+  (912,719)
+  (912,727)
+  (817,725)
+  (817,703)
+  (828,703)
+  (834,696)
+  (833,688)
+]
+POLYGON::("Oklahoma")[
+  (684,595)
+  (831,593)
+  (834,694)
+  (828,702)
+  (817,702)
+  (809,693)
+  (779,684)
+  (721,678)
+  (726,669)
+  (727,626)
+  (684,621)
+]
+POLYGON::("Texas")[
+  (670,621)
+  (727,627)
+  (727,669)
+  (721,678)
+  (780,686)
+  (807,694)
+  (816,702)
+  (817,748)
+  (806,748)
+  (750,796)
+  (747,805)
+  (730,804)
+  (722,779)
+  (712,772)
+  (710,781)
+  (704,787)
+  (696,788)
+  (692,785)
+  (692,779)
+  (683,762)
+  (653,746)
+  (645,739)
+  (645,734)
+  (631,733)
+  (641,693)
+  (659,676)
+  (667,660)
+  (669,639)
+]
+POLYGON::("California")[
+  (455,591)
+  (494,591)
+  (514,648)
+  (528,658)
+  (572,710)
+  (576,730)
+  (520,727)
+  (520,718)
+  (513,710)
+  (512,690)
+  (508,687)
+  (493,682)
+  (490,675)
+  (492,673)
+  (487,668)
+  (472,639)
+  (466,636)
+  (463,605)
+]
+POLYGON::("Nevada")[
+  (494,590)
+  (514,647)
+  (525,654)
+  (572,712)
+  (575,730)
+  (599,732)
+  (599,734)
+  (614,734)
+  (615,591)
+  (589,593)
+  (584,595)
+  (545,594)
+  (541,591)
+]
+POLYGON::("New Mexico")[
+  (683,593)
+  (683,619)
+  (669,620)
+  (669,641)
+  (666,648)
+  (666,660)
+  (658,676)
+  (637,694)
+  (630,732)
+  (615,734)
+  (616,591)
+]
+POLYGON::("Florida")[
+  (816,725)
+  (922,728)
+  (933,742)
+  (933,750)
+  (928,753)
+  (921,770)
+  (914,810)
+  (908,814)
+  (898,812)
+  (893,800)
+  (896,792)
+  (896,769)
+  (889,760)
+  (879,758)
+  (865,749)
+  (825,748)
+  (823,751)
+  (817,748)
+]
+POLYGON::("Cuba")[
+  (867,833)
+  (875,831)
+  (884,835)
+  (897,836)
+  (903,835)
+  (912,840)
+  (920,843)
+  (924,844)
+  (926,841)
+  (938,841)
+  (943,845)
+  (936,853)
+  (916,853)
+  (912,848)
+  (905,848)
+  (895,857)
+  (890,855)
+  (883,849)
+  (873,847)
+  (869,842)
+]
+POLYGON::("Hispanola")[
+  (963,843)
+  (984,844)
+  (991,839)
+  (1004,839)
+  (1010,844)
+  (1003,856)
+  (994,862)
+  (984,863)
+  (978,867)
+  (955,866)
+  (955,862)
+  (971,856)
+  (971,850)
+  (962,848)
+]
+POLYGON::("Baja California")[
+  (520,727)
+  (556,732)
+  (556,752)
+  (548,752)
+  (542,756)
+  (542,775)
+  (553,806)
+  (554,811)
+  (566,846)
+  (566,856)
+  (554,856)
+  (550,850)
+  (547,832)
+  (524,790)
+  (517,756)
+]
+POLYGON::("Sonora")[
+  (556,731)
+  (645,734)
+  (645,739)
+  (659,749)
+  (656,777)
+  (653,802)
+  (653,808)
+  (673,839)
+  (673,862)
+  (628,888)
+  (623,882)
+  (607,873)
+  (575,783)
+  (565,765)
+  (566,758)
+  (559,750)
+  (556,750)
+]
+POLYGON::("Chihuahua")[
+  (658,750)
+  (682,761)
+  (686,768)
+  (692,785)
+  (696,790)
+  (705,787)
+  (709,780)
+  (711,773)
+  (715,772)
+  (722,780)
+  (726,792)
+  (730,804)
+  (747,806)
+  (741,822)
+  (731,833)
+  (731,860)
+  (729,870)
+  (723,872)
+  (684,869)
+  (680,863)
+  (672,862)
+  (673,841)
+  (654,808)
+]
+POLYGON::("Durango")[
+  (631,887)
+  (671,863)
+  (681,863)
+  (685,870)
+  (723,872)
+  (730,868)
+  (740,886)
+  (743,889)
+  (754,913)
+  (754,920)
+  (767,925)
+  (776,930)
+  (756,973)
+  (756,983)
+  (749,995)
+  (723,978)
+  (711,966)
+  (706,967)
+  (660,924)
+  (658,919)
+  (652,915)
+  (650,900)
+  (640,893)
+]
+POLYGON::("Yukatan")[
+  (758,971)
+  (776,931)
+  (784,932)
+  (793,939)
+  (808,939)
+  (810,935)
+  (821,911)
+  (829,902)
+  (836,884)
+  (849,878)
+  (861,878)
+  (867,886)
+  (868,903)
+  (864,929)
+  (850,950)
+  (840,974)
+  (841,993)
+  (843,994)
+  (838,1005)
+  (831,1010)
+  (824,1021)
+  (818,1020)
+  (816,1025)
+  (801,1014)
+  (784,1010)
+  (750,992)
+  (756,982)
+]
+POLYGON::("Panama")[
+  (843,994)
+  (856,1000)
+  (869,1000)
+  (879,1008)
+  (878,1049)
+  (881,1057)
+  (892,1063)
+  (929,1063)
+  (935,1066)
+  (936,1069)
+  (938,1069)
+  (944,1076)
+  (945,1093)
+  (948,1096)
+  (937,1109)
+  (938,1099)
+  (933,1091)
+  (933,1088)
+  (930,1088)
+  (926,1080)
+  (884,1080)
+  (869,1072)
+  (865,1072)
+  (852,1057)
+  (852,1050)
+  (836,1037)
+  (829,1035)
+  (818,1026)
+  (820,1021)
+  (824,1021)
+]
+POLYGON::("Venezuela")[
+  (996,1046)
+  (1024,1046)
+  (1029,1052)
+  (1033,1052)
+  (1049,1058)
+  (1060,1068)
+  (1067,1071)
+  (1079,1079)
+  (1085,1079)
+  (1093,1083)
+  (1102,1092)
+  (1114,1096)
+  (1103,1118)
+  (1084,1133)
+  (1037,1135)
+  (1021,1133)
+  (1018,1131)
+  (1008,1129)
+  (984,1113)
+  (979,1101)
+  (958,1086)
+  (958,1082)
+  (966,1077)
+  (974,1066)
+  (980,1065)
+  (985,1056)
+]
+POLYGON::("Columbia")[
+  (956,1093)
+  (951,1093)
+  (934,1115)
+  (920,1145)
+  (912,1151)
+  (911,1160)
+  (901,1173)
+  (899,1200)
+  (904,1204)
+  (909,1209)
+  (915,1209)
+  (961,1215)
+  (969,1212)
+  (984,1209)
+  (1017,1209)
+  (1025,1203)
+  (1031,1194)
+  (1031,1184)
+  (1026,1172)
+  (1027,1149)
+  (1022,1144)
+  (1022,1132)
+  (1005,1129)
+  (982,1110)
+  (979,1102)
+  (958,1087)
+]
+POLYGON::("Brazil")[
+  (1113,1096)
+  (1120,1101)
+  (1136,1101)
+  (1163,1123)
+  (1164,1140)
+  (1177,1158)
+  (1177,1168)
+  (1189,1175)
+  (1189,1188)
+  (1198,1197)
+  (1207,1198)
+  (1227,1211)
+  (1250,1211)
+  (1254,1215)
+  (1259,1225)
+  (1269,1229)
+  (1304,1234)
+  (1307,1246)
+  (1329,1254)
+  (1333,1263)
+  (1344,1270)
+  (1347,1277)
+  (1345,1295)
+  (1340,1312)
+  (1340,1325)
+  (1335,1333)
+  (1336,1340)
+  (1331,1349)
+  (1329,1399)
+  (1321,1429)
+  (1319,1456)
+  (1307,1485)
+  (1288,1528)
+  (1223,1528)
+  (1202,1512)
+  (1183,1478)
+  (1174,1472)
+  (1183,1421)
+  (1180,1403)
+  (1159,1386)
+  (1145,1364)
+  (1116,1351)
+  (1110,1351)
+  (1071,1328)
+  (1063,1327)
+  (1029,1310)
+  (997,1263)
+  (989,1260)
+  (985,1219)
+  (992,1209)
+  (1014,1209)
+  (1025,1204)
+  (1031,1192)
+  (1031,1181)
+  (1027,1172)
+  (1027,1148)
+  (1022,1142)
+  (1022,1132)
+  (1042,1136)
+  (1083,1133)
+  (1103,1118)
+]
+POLYGON::("Peru")[
+  (899,1202)
+  (909,1211)
+  (930,1211)
+  (936,1215)
+  (965,1215)
+  (991,1209)
+  (984,1218)
+  (988,1260)
+  (997,1265)
+  (1027,1309)
+  (1064,1328)
+  (1070,1328)
+  (1110,1351)
+  (1113,1351)
+  (1113,1358)
+  (1097,1374)
+  (1089,1406)
+  (1082,1431)
+  (1081,1454)
+  (1086,1464)
+  (1076,1464)
+  (1067,1479)
+  (1062,1480)
+  (1059,1487)
+  (1038,1472)
+  (1030,1463)
+  (1027,1454)
+  (1013,1440)
+  (975,1399)
+  (969,1373)
+  (963,1354)
+  (962,1330)
+  (958,1322)
+  (917,1290)
+  (917,1287)
+  (909,1283)
+  (896,1259)
+]
+POLYGON::("Chile")[
+  (1086,1466)
+  (1077,1466)
+  (1067,1481)
+  (1061,1483)
+  (1063,1489)
+  (1067,1491)
+  (1085,1502)
+  (1091,1514)
+  (1092,1561)
+  (1087,1580)
+  (1086,1594)
+  (1075,1621)
+  (1078,1683)
+  (1067,1710)
+  (1062,1728)
+  (1062,1784)
+  (1041,1819)
+  (1041,1848)
+  (1033,1858)
+  (1031,1890)
+  (1028,1900)
+  (1028,1945)
+  (1022,1955)
+  (1024,1982)
+  (1030,1986)
+  (1043,2018)
+  (1057,2033)
+  (1066,2040)
+  (1073,2040)
+  (1090,2054)
+  (1118,2057)
+  (1169,2086)
+  (1175,2086)
+  (1175,2080)
+  (1171,2075)
+  (1154,2065)
+  (1119,2010)
+  (1104,2008)
+  (1079,1997)
+  (1063,1975)
+  (1059,1948)
+  (1062,1901)
+  (1071,1857)
+  (1075,1849)
+  (1076,1840)
+  (1072,1828)
+  (1072,1822)
+  (1071,1821)
+  (1071,1810)
+  (1087,1791)
+  (1088,1759)
+  (1092,1753)
+  (1092,1732)
+  (1103,1716)
+  (1102,1632)
+  (1120,1582)
+  (1128,1574)
+  (1129,1543)
+  (1113,1503)
+  (1096,1483)
+  (1092,1480)
+]
+POLYGON::("Argentina")[
+  (1122,1583)
+  (1132,1591)
+  (1149,1593)
+  (1155,1587)
+  (1177,1586)
+  (1196,1588)
+  (1202,1592)
+  (1215,1591)
+  (1227,1614)
+  (1248,1641)
+  (1256,1645)
+  (1250,1657)
+  (1223,1703)
+  (1222,1715)
+  (1199,1752)
+  (1196,1772)
+  (1190,1796)
+  (1179,1817)
+  (1169,1824)
+  (1156,1853)
+  (1148,1867)
+  (1148,1871)
+  (1145,1873)
+  (1128,1899)
+  (1128,1916)
+  (1122,1946)
+  (1118,1956)
+  (1118,1973)
+  (1120,1976)
+  (1113,1980)
+  (1109,2000)
+  (1118,2012)
+  (1110,2011)
+  (1080,1997)
+  (1062,1974)
+  (1060,1950)
+  (1063,1897)
+  (1066,1884)
+  (1072,1855)
+  (1077,1844)
+  (1073,1831)
+  (1070,1814)
+  (1087,1791)
+  (1088,1761)
+  (1092,1753)
+  (1092,1734)
+  (1103,1717)
+  (1103,1652)
+  (1103,1634)
+  (1109,1615)
+]
+POLYGON::("Uraguay")[
+  (1288,1528)
+  (1279,1573)
+  (1264,1616)
+  (1256,1644)
+  (1231,1620)
+  (1212,1587)
+  (1213,1555)
+  (1225,1528)
+]
+POLYGON::("Paraguay")[
+  (1174,1473)
+  (1186,1482)
+  (1201,1512)
+  (1224,1530)
+  (1211,1557)
+  (1211,1586)
+  (1213,1590)
+  (1201,1590)
+  (1190,1585)
+  (1154,1586)
+  (1148,1592)
+  (1130,1590)
+  (1123,1582)
+  (1131,1574)
+  (1130,1543)
+  (1124,1527)
+  (1135,1524)
+  (1148,1512)
+  (1158,1499)
+]
+POLYGON::("Bolivia")[
+  (1146,1366)
+  (1154,1383)
+  (1178,1404)
+  (1182,1419)
+  (1173,1475)
+  (1151,1508)
+  (1137,1523)
+  (1123,1528)
+  (1114,1505)
+  (1099,1485)
+  (1094,1481)
+  (1081,1454)
+  (1084,1421)
+  (1097,1380)
+  (1113,1360)
+  (1115,1352)
+]
+POLYGON::("Iceland")[
+  (1342,290)
+  (1379,273)
+  (1387,275)
+  (1399,289)
+  (1400,301)
+  (1402,304)
+  (1402,327)
+  (1395,342)
+  (1373,350)
+  (1362,350)
+  (1345,340)
+  (1337,308)
+]
+POLYGON::("Irerland")[
+  (1559,289)
+  (1578,289)
+  (1579,297)
+  (1587,302)
+  (1592,311)
+  (1597,311)
+  (1604,319)
+  (1613,341)
+  (1616,356)
+  (1612,367)
+  (1571,411)
+  (1572,415)
+  (1576,416)
+  (1580,425)
+  (1573,435)
+  (1562,440)
+  (1530,440)
+  (1530,440)
+  (1495,419)
+  (1495,404)
+  (1505,393)
+  (1510,381)
+  (1509,371)
+  (1496,358)
+  (1495,348)
+  (1498,325)
+  (1503,323)
+  (1510,324)
+  (1516,323)
+  (1524,309)
+  (1528,312)
+  (1531,300)
+  (1547,300)
+]
+POLYGON::("Scottland")[
+  (1645,296)
+  (1641,282)
+  (1635,273)
+  (1631,266)
+  (1628,237)
+  (1632,235)
+  (1637,233)
+  (1641,237)
+  (1647,232)
+  (1650,226)
+  (1647,225)
+  (1654,204)
+  (1659,200)
+  (1663,203)
+  (1675,201)
+  (1679,205)
+  (1684,205)
+  (1695,217)
+  (1689,271)
+  (1685,279)
+  (1687,289)
+  (1675,289)
+]
+POLYGON::("England")[
+  (1686,289)
+  (1673,290)
+  (1646,298)
+  (1652,310)
+  (1660,318)
+  (1659,367)
+  (1654,377)
+  (1620,402)
+  (1615,415)
+  (1615,431)
+  (1620,435)
+  (1622,441)
+  (1630,447)
+  (1635,445)
+  (1657,447)
+  (1673,452)
+  (1682,455)
+  (1708,456)
+  (1723,451)
+  (1724,446)
+  (1727,442)
+  (1729,431)
+  (1724,426)
+  (1724,420)
+  (1730,415)
+  (1736,404)
+  (1735,378)
+  (1711,348)
+  (1700,327)
+  (1693,322)
+  (1690,313)
+  (1686,309)
+  (1685,300)
+  (1688,295)
+]
+POLYGON::("Spain")[
+  (1547,601)
+  (1563,616)
+  (1566,624)
+  (1572,629)
+  (1577,628)
+  (1588,633)
+  (1614,635)
+  (1631,640)
+  (1627,655)
+  (1625,690)
+  (1623,700)
+  (1616,708)
+  (1613,715)
+  (1603,720)
+  (1557,720)
+  (1548,734)
+  (1546,735)
+  (1533,721)
+  (1524,717)
+  (1515,717)
+  (1497,708)
+  (1493,692)
+  (1491,688)
+  (1492,654)
+  (1498,619)
+  (1503,610)
+  (1512,606)
+  (1524,607)
+  (1535,601)
+]
+POLYGON::("France")[
+  (1574,469)
+  (1608,471)
+  (1621,477)
+  (1635,487)
+  (1677,491)
+  (1683,505)
+  (1688,508)
+  (1683,516)
+  (1679,584)
+  (1684,612)
+  (1676,610)
+  (1660,619)
+  (1653,620)
+  (1648,631)
+  (1636,638)
+  (1631,641)
+  (1613,633)
+  (1585,632)
+  (1577,628)
+  (1571,629)
+  (1564,621)
+  (1563,615)
+  (1548,600)
+  (1559,590)
+  (1564,590)
+  (1573,577)
+  (1574,522)
+  (1578,516)
+  (1582,513)
+  (1588,501)
+  (1586,489)
+  (1573,476)
+]
+POLYGON::("Germany")[
+  (1851,405)
+  (1847,415)
+  (1833,418)
+  (1817,424)
+  (1784,425)
+  (1772,447)
+  (1771,456)
+  (1764,461)
+  (1725,476)
+  (1705,479)
+  (1695,488)
+  (1687,488)
+  (1675,492)
+  (1687,509)
+  (1685,525)
+  (1682,530)
+  (1681,563)
+  (1727,563)
+  (1731,557)
+  (1785,563)
+  (1799,559)
+  (1814,552)
+  (1831,536)
+  (1837,532)
+  (1842,519)
+  (1855,505)
+  (1861,502)
+  (1875,490)
+  (1880,482)
+  (1877,406)
+]
+POLYGON::("Denmark")[
+  (1810,330)
+  (1806,328)
+  (1802,328)
+  (1803,333)
+  (1793,341)
+  (1792,370)
+  (1787,384)
+  (1785,423)
+  (1817,423)
+  (1846,414)
+  (1851,404)
+  (1849,396)
+  (1847,390)
+  (1845,346)
+  (1849,337)
+  (1841,330)
+]
+POLYGON::("Poland")[
+  (1878,406)
+  (1913,403)
+  (1937,386)
+  (1945,419)
+  (1947,438)
+  (1956,454)
+  (1956,478)
+  (1949,484)
+  (1907,491)
+  (1876,491)
+  (1875,491)
+  (1881,481)
+  (1878,440)
+]
+POLYGON::("Romania")[
+  (1874,489)
+  (1863,505)
+  (1847,511)
+  (1856,525)
+  (1864,532)
+  (1871,533)
+  (1875,539)
+  (1865,556)
+  (1865,562)
+  (1872,567)
+  (1879,577)
+  (1901,579)
+  (1908,588)
+  (1922,596)
+  (1927,606)
+  (1927,616)
+  (1938,614)
+  (1943,609)
+  (1941,566)
+  (1945,559)
+  (1948,530)
+  (1971,504)
+  (1954,480)
+  (1939,487)
+  (1903,492)
+]
+POLYGON::("Austria")[
+  (1680,564)
+  (1726,563)
+  (1732,558)
+  (1783,563)
+  (1801,559)
+  (1816,551)
+  (1831,536)
+  (1836,533)
+  (1841,519)
+  (1849,513)
+  (1859,530)
+  (1872,536)
+  (1874,542)
+  (1863,559)
+  (1861,570)
+  (1854,580)
+  (1839,586)
+  (1835,586)
+  (1827,593)
+  (1809,599)
+  (1784,600)
+  (1776,597)
+  (1770,594)
+  (1760,600)
+  (1748,600)
+  (1746,603)
+  (1736,603)
+  (1732,598)
+  (1721,600)
+  (1708,600)
+  (1687,586)
+  (1680,583)
+]
+POLYGON::("Italy")[
+  (1679,583)
+  (1684,611)
+  (1713,621)
+  (1766,699)
+  (1768,715)
+  (1763,728)
+  (1749,745)
+  (1749,757)
+  (1757,762)
+  (1771,763)
+  (1778,751)
+  (1785,730)
+  (1800,727)
+  (1809,725)
+  (1813,715)
+  (1811,699)
+  (1805,688)
+  (1792,684)
+  (1767,652)
+  (1766,641)
+  (1757,619)
+  (1758,608)
+  (1759,600)
+  (1748,600)
+  (1745,607)
+  (1733,604)
+  (1730,599)
+  (1706,600)
+]
+POLYGON::("Greece")[
+  (1826,643)
+  (1830,653)
+  (1830,697)
+  (1855,739)
+  (1868,750)
+  (1873,750)
+  (1882,757)
+  (1898,757)
+  (1916,745)
+  (1916,726)
+  (1912,703)
+  (1904,691)
+  (1893,683)
+  (1888,676)
+  (1888,640)
+  (1879,641)
+  (1867,646)
+  (1855,646)
+  (1851,643)
+]
+POLYGON::("Ukraine")[
+  (1952,442)
+  (1956,454)
+  (1955,480)
+  (1973,502)
+  (1991,497)
+  (2000,497)
+  (2021,489)
+  (2037,490)
+  (2061,507)
+  (2095,534)
+  (2101,541)
+  (2104,556)
+  (2114,562)
+  (2113,570)
+  (2152,572)
+  (2154,576)
+  (2165,578)
+  (2172,585)
+  (2178,597)
+  (2196,598)
+  (2195,590)
+  (2191,577)
+  (2191,560)
+  (2186,540)
+  (2180,528)
+  (2180,521)
+  (2177,518)
+  (2177,511)
+  (2181,508)
+  (2184,497)
+  (2184,478)
+  (2181,459)
+  (2168,450)
+  (2158,438)
+  (2153,431)
+  (2121,419)
+  (2072,419)
+  (2059,425)
+  (2048,425)
+  (2021,437)
+  (1991,434)
+  (1985,438)
+  (1977,443)
+]
+POLYGON::("Lithuanea")[
+  (1942,307)
+  (1973,308)
+  (1995,331)
+  (1997,339)
+  (2005,352)
+  (2007,379)
+  (1999,399)
+  (1992,405)
+  (1968,408)
+  (1944,419)
+  (1944,398)
+  (1936,385)
+  (1945,369)
+  (1942,323)
+]
+POLYGON::("Rusia")[
+  (2038,70)
+  (2062,74)
+  (2079,91)
+  (2095,99)
+  (2097,111)
+  (2093,128)
+  (2083,133)
+  (2076,140)
+  (2070,140)
+  (2069,160)
+  (2092,176)
+  (2109,181)
+  (2133,165)
+  (2135,137)
+  (2133,134)
+  (2131,125)
+  (2154,117)
+  (2162,116)
+  (2162,122)
+  (2157,138)
+  (2157,152)
+  (2160,157)
+  (2157,158)
+  (2156,176)
+  (2152,197)
+  (2152,223)
+  (2160,246)
+  (2157,326)
+  (2147,376)
+  (2136,407)
+  (2123,420)
+  (2070,419)
+  (2059,426)
+  (2047,425)
+  (2021,438)
+  (1991,434)
+  (1976,443)
+  (1951,442)
+  (1945,433)
+  (1944,418)
+  (1996,403)
+  (2007,378)
+  (2005,352)
+  (1992,327)
+  (1974,308)
+  (1943,307)
+  (1948,287)
+  (1948,277)
+  (1957,278)
+  (1967,262)
+  (1992,257)
+  (2005,248)
+  (2013,240)
+  (2021,236)
+  (2028,226)
+  (2031,219)
+  (2045,194)
+  (2050,169)
+  (2051,118)
+  (2043,102)
+  (2036,96)
+  (2034,95)
+  (2034,78)
+]
+POLYGON::("Norway")[
+  (1856,293)
+  (1851,299)
+  (1851,299)
+  (1846,299)
+  (1845,310)
+  (1837,314)
+  (1834,314)
+  (1830,318)
+  (1821,318)
+  (1813,309)
+  (1816,289)
+  (1814,273)
+  (1813,212)
+  (1817,206)
+  (1815,202)
+  (1815,192)
+  (1824,174)
+  (1830,144)
+  (1836,128)
+  (1849,112)
+  (1869,100)
+  (1871,114)
+  (1875,117)
+  (1875,133)
+  (1866,147)
+  (1862,148)
+  (1862,159)
+  (1854,177)
+  (1848,195)
+  (1846,223)
+  (1853,232)
+  (1853,248)
+  (1856,253)
+  (1858,264)
+]
+POLYGON::("Sweeden")[
+  (1871,100)
+  (1872,115)
+  (1876,120)
+  (1876,137)
+  (1863,150)
+  (1863,160)
+  (1848,198)
+  (1847,224)
+  (1853,231)
+  (1854,247)
+  (1858,254)
+  (1858,291)
+  (1864,293)
+  (1869,301)
+  (1869,313)
+  (1871,322)
+  (1878,337)
+  (1879,363)
+  (1887,387)
+  (1892,387)
+  (1898,378)
+  (1899,369)
+  (1912,343)
+  (1910,284)
+  (1918,259)
+  (1931,238)
+  (1935,229)
+  (1940,229)
+  (1950,199)
+  (1951,168)
+  (1964,118)
+  (1965,85)
+  (1955,78)
+  (1936,75)
+  (1918,81)
+  (1893,87)
+]
+POLYGON::("Finnland")[
+  (1951,74)
+  (1963,83)
+  (1966,90)
+  (1963,122)
+  (1955,155)
+  (1951,199)
+  (1941,229)
+  (1946,229)
+  (1948,238)
+  (1949,276)
+  (1957,276)
+  (1968,261)
+  (1990,257)
+  (2022,234)
+  (2043,196)
+  (2049,171)
+  (2050,119)
+  (2043,103)
+  (2033,94)
+  (2033,75)
+  (2038,72)
+  (2029,70)
+  (1988,70)
+]
+POLYGON::("Yugoslavia")[
+  (1863,561)
+  (1878,575)
+  (1902,580)
+  (1908,589)
+  (1923,597)
+  (1927,608)
+  (1927,618)
+  (1901,624)
+  (1888,640)
+  (1872,643)
+  (1866,646)
+  (1855,646)
+  (1850,644)
+  (1826,642)
+  (1820,631)
+  (1811,621)
+  (1804,607)
+  (1794,605)
+  (1787,600)
+  (1810,598)
+  (1827,593)
+  (1837,586)
+  (1854,579)
+  (1860,571)
+]
+POLYGON::("Chuckhi")[
+  (3283,174)
+  (3281,196)
+  (3273,220)
+  (3270,228)
+  (3269,244)
+  (3277,252)
+  (3290,261)
+  (3303,275)
+  (3319,291)
+  (3350,305)
+  (3366,309)
+  (3382,319)
+  (3392,324)
+  (3403,327)
+  (3410,337)
+  (3410,346)
+  (3422,344)
+  (3444,344)
+  (3462,324)
+  (3507,324)
+  (3515,309)
+  (3525,311)
+  (3536,307)
+  (3566,307)
+  (3577,297)
+  (3575,287)
+  (3532,265)
+  (3509,263)
+  (3461,238)
+  (3435,218)
+  (3419,211)
+  (3359,197)
+  (3335,188)
+  (3292,181)
+]
+POLYGON::("Kamchatca")[
+  (3267,255)
+  (3279,254)
+  (3306,278)
+  (3319,291)
+  (3351,306)
+  (3364,308)
+  (3391,324)
+  (3404,328)
+  (3409,339)
+  (3410,346)
+  (3383,358)
+  (3379,363)
+  (3369,369)
+  (3355,385)
+  (3347,401)
+  (3337,403)
+  (3316,436)
+  (3312,444)
+  (3305,450)
+  (3295,451)
+  (3286,444)
+  (3282,436)
+  (3282,422)
+  (3280,422)
+  (3281,411)
+  (3287,380)
+  (3285,374)
+  (3291,358)
+  (3292,345)
+  (3283,330)
+  (3275,320)
+  (3267,312)
+  (3259,304)
+  (3253,298)
+  (3257,288)
+  (3261,270)
+]
+POLYGON::("Yakust")[
+  (3139,146)
+  (3212,150)
+  (3219,148)
+  (3235,153)
+  (3280,171)
+  (3284,177)
+  (3281,189)
+  (3276,214)
+  (3270,226)
+  (3270,238)
+  (3252,237)
+  (3238,235)
+  (3221,236)
+  (3216,236)
+  (3179,223)
+  (3139,221)
+  (3141,204)
+  (3147,193)
+  (3146,178)
+  (3143,172)
+  (3139,167)
+]
+POLYGON::("Buryat")[
+  (3043,227)
+  (3095,228)
+  (3112,219)
+  (3135,220)
+  (3180,223)
+  (3215,236)
+  (3237,235)
+  (3268,238)
+  (3270,247)
+  (3276,251)
+  (3278,255)
+  (3267,255)
+  (3257,283)
+  (3257,289)
+  (3252,298)
+  (3219,291)
+  (3218,290)
+  (3200,290)
+  (3178,297)
+  (3167,303)
+  (3154,303)
+  (3150,298)
+  (3138,300)
+  (3135,304)
+  (3104,310)
+  (3097,311)
+  (3071,322)
+  (3067,315)
+  (3058,311)
+  (3040,302)
+  (3012,300)
+  (3018,287)
+  (3023,266)
+  (3025,255)
+  (3030,245)
+  (3041,234)
+]
+POLYGON::("Taymar")[
+  (2816,132)
+  (2830,130)
+  (2841,125)
+  (2908,129)
+  (2922,134)
+  (2927,134)
+  (2932,136)
+  (3027,139)
+  (3064,146)
+  (3068,150)
+  (3086,154)
+  (3101,154)
+  (3134,146)
+  (3139,146)
+  (3139,166)
+  (3146,179)
+  (3145,195)
+  (3140,209)
+  (3139,220)
+  (3110,219)
+  (3093,228)
+  (3042,227)
+  (3040,228)
+  (3022,223)
+  (3010,222)
+  (3000,225)
+  (2995,225)
+  (2993,223)
+  (2988,222)
+  (2970,215)
+  (2948,215)
+  (2934,209)
+  (2922,209)
+  (2915,206)
+  (2895,206)
+  (2890,209)
+  (2889,212)
+  (2863,206)
+  (2856,201)
+  (2832,196)
+  (2824,197)
+  (2824,184)
+  (2816,168)
+]
+POLYGON::("Manchuria")[
+  (2963,316)
+  (2955,321)
+  (2954,333)
+  (2948,336)
+  (2932,370)
+  (2930,385)
+  (2925,396)
+  (2926,408)
+  (2936,422)
+  (2984,430)
+  (3026,430)
+  (3060,438)
+  (3078,444)
+  (3083,444)
+  (3096,454)
+  (3101,454)
+  (3103,452)
+  (3103,418)
+  (3098,402)
+  (3086,394)
+  (3077,381)
+  (3064,380)
+  (3044,365)
+  (3044,334)
+  (3046,331)
+  (3053,332)
+  (3060,324)
+  (3069,321)
+  (3064,313)
+  (3061,313)
+  (3038,301)
+  (3013,301)
+  (3009,308)
+  (2995,317)
+]
+POLYGON::("Mongolia")[
+  (2766,318)
+  (2759,315)
+  (2741,314)
+  (2737,310)
+  (2732,310)
+  (2721,323)
+  (2706,326)
+  (2700,334)
+  (2712,349)
+  (2733,362)
+  (2736,362)
+  (2766,383)
+  (2783,408)
+  (2798,422)
+  (2817,433)
+  (2845,439)
+  (2858,437)
+  (2931,415)
+  (2925,404)
+  (2925,395)
+  (2930,383)
+  (2933,366)
+  (2950,330)
+  (2953,327)
+  (2954,321)
+  (2907,321)
+  (2880,315)
+  (2858,315)
+  (2844,318)
+]
+POLYGON::("India")[
+  (2381,940)
+  (2382,954)
+  (2387,966)
+  (2391,966)
+  (2397,973)
+  (2401,973)
+  (2406,968)
+  (2412,966)
+  (2416,966)
+  (2425,973)
+  (2438,988)
+  (2451,1008)
+  (2466,1043)
+  (2479,1075)
+  (2490,1094)
+  (2491,1111)
+  (2495,1115)
+  (2505,1114)
+  (2509,1109)
+  (2509,1104)
+  (2513,1094)
+  (2519,1080)
+  (2519,1072)
+  (2518,1072)
+  (2519,1054)
+  (2523,1050)
+  (2524,1038)
+  (2528,1024)
+  (2547,1002)
+  (2561,997)
+  (2573,996)
+  (2592,978)
+  (2596,968)
+  (2604,962)
+  (2603,947)
+  (2616,962)
+  (2625,950)
+  (2616,940)
+  (2604,931)
+  (2602,930)
+  (2598,923)
+  (2598,906)
+  (2596,901)
+  (2580,888)
+  (2573,877)
+  (2547,868)
+  (2513,865)
+  (2498,874)
+  (2489,875)
+  (2474,876)
+  (2463,879)
+  (2456,883)
+  (2449,895)
+  (2446,906)
+  (2416,936)
+  (2403,940)
+]
+POLYGON::("Burma")[
+  (2708,839)
+  (2696,839)
+  (2686,848)
+  (2683,862)
+  (2679,876)
+  (2670,886)
+  (2658,914)
+  (2636,939)
+  (2630,941)
+  (2624,952)
+  (2616,963)
+  (2622,967)
+  (2625,984)
+  (2632,990)
+  (2631,1014)
+  (2645,1037)
+  (2648,1048)
+  (2660,1051)
+  (2670,1062)
+  (2675,1060)
+  (2689,1061)
+  (2692,1057)
+  (2696,1060)
+  (2698,1056)
+  (2699,1024)
+  (2698,1001)
+  (2702,969)
+  (2707,956)
+  (2708,941)
+  (2715,926)
+  (2742,897)
+  (2734,887)
+  (2734,881)
+  (2730,870)
+  (2720,853)
+]
+POLYGON::("Malasia")[
+  (2695,1059)
+  (2691,1057)
+  (2688,1063)
+  (2692,1074)
+  (2694,1079)
+  (2694,1091)
+  (2690,1097)
+  (2690,1113)
+  (2696,1121)
+  (2696,1129)
+  (2693,1133)
+  (2697,1162)
+  (2697,1188)
+  (2701,1192)
+  (2707,1192)
+  (2713,1182)
+  (2714,1172)
+  (2721,1168)
+  (2725,1163)
+  (2725,1152)
+  (2705,1131)
+  (2705,1114)
+  (2709,1107)
+  (2713,1093)
+  (2717,1092)
+  (2720,1097)
+  (2720,1083)
+  (2718,1075)
+  (2713,1069)
+  (2705,1062)
+  (2703,1063)
+]
+POLYGON::("Siam")[
+  (2742,898)
+  (2716,924)
+  (2708,943)
+  (2707,959)
+  (2701,969)
+  (2698,1006)
+  (2699,1026)
+  (2697,1060)
+  (2714,1067)
+  (2720,1081)
+  (2720,1098)
+  (2728,1109)
+  (2743,1125)
+  (2747,1138)
+  (2757,1155)
+  (2772,1162)
+  (2782,1161)
+  (2794,1151)
+  (2797,1149)
+  (2797,1144)
+  (2798,1132)
+  (2791,1117)
+  (2783,1095)
+  (2782,1077)
+  (2779,1073)
+  (2781,1068)
+  (2780,1061)
+  (2768,1043)
+  (2768,1032)
+  (2763,1017)
+  (2755,994)
+  (2755,947)
+  (2763,929)
+  (2760,923)
+  (2757,920)
+  (2747,906)
+]
+POLYGON::("Tibet")[
+  (2588,643)
+  (2578,655)
+  (2570,677)
+  (2545,700)
+  (2516,717)
+  (2509,731)
+  (2508,753)
+  (2502,772)
+  (2500,833)
+  (2513,848)
+  (2523,865)
+  (2545,868)
+  (2569,875)
+  (2582,890)
+  (2596,902)
+  (2599,924)
+  (2602,930)
+  (2626,948)
+  (2657,915)
+  (2672,882)
+  (2680,874)
+  (2685,851)
+  (2697,838)
+  (2708,839)
+  (2705,831)
+  (2686,820)
+  (2684,810)
+  (2680,793)
+  (2670,767)
+  (2665,732)
+  (2642,694)
+  (2616,667)
+]
+POLYGON::("Afganestan")[
+  (2338,728)
+  (2425,724)
+  (2458,744)
+  (2502,743)
+  (2509,751)
+  (2502,769)
+  (2500,821)
+  (2463,827)
+  (2452,833)
+  (2435,833)
+  (2426,833)
+  (2399,824)
+  (2390,822)
+  (2382,819)
+  (2362,803)
+  (2353,800)
+  (2341,800)
+  (2339,793)
+]
+POLYGON::("Pakastan")[
+  (2342,800)
+  (2355,800)
+  (2369,809)
+  (2384,820)
+  (2424,833)
+  (2451,834)
+  (2468,825)
+  (2499,821)
+  (2500,834)
+  (2521,864)
+  (2512,866)
+  (2495,876)
+  (2471,876)
+  (2459,881)
+  (2453,884)
+  (2444,908)
+  (2418,933)
+  (2403,940)
+  (2381,940)
+  (2380,921)
+  (2363,897)
+  (2343,883)
+  (2337,870)
+  (2337,867)
+  (2338,852)
+  (2342,834)
+  (2346,823)
+  (2346,808)
+]
+POLYGON::("Kazakh")[
+  (2280,461)
+  (2257,465)
+  (2235,474)
+  (2211,478)
+  (2183,478)
+  (2185,499)
+  (2225,505)
+  (2240,525)
+  (2256,565)
+  (2270,586)
+  (2287,598)
+  (2289,619)
+  (2284,633)
+  (2292,636)
+  (2311,659)
+  (2321,686)
+  (2334,707)
+  (2337,728)
+  (2425,725)
+  (2457,743)
+  (2503,743)
+  (2509,753)
+  (2510,729)
+  (2519,715)
+  (2547,698)
+  (2570,677)
+  (2578,654)
+  (2588,643)
+  (2574,618)
+  (2576,560)
+  (2570,539)
+  (2544,478)
+  (2541,453)
+  (2473,455)
+  (2441,463)
+  (2395,465)
+  (2371,461)
+  (2361,461)
+]
+POLYGON::("China")[
+  (2703,337)
+  (2670,358)
+  (2646,361)
+  (2614,389)
+  (2562,423)
+  (2549,430)
+  (2541,459)
+  (2545,481)
+  (2568,534)
+  (2576,558)
+  (2574,617)
+  (2588,642)
+  (2644,696)
+  (2665,733)
+  (2673,774)
+  (2686,818)
+  (2706,833)
+  (2708,839)
+  (2727,862)
+  (2734,883)
+  (2736,891)
+  (2763,928)
+  (2793,896)
+  (2835,899)
+  (2853,904)
+  (2859,921)
+  (2898,927)
+  (2911,917)
+  (2915,917)
+  (2917,905)
+  (2917,896)
+  (2916,893)
+  (2917,874)
+  (2933,833)
+  (2936,756)
+  (2932,701)
+  (2927,674)
+  (2918,664)
+  (2918,650)
+  (2932,641)
+  (2932,634)
+  (2914,631)
+  (2906,642)
+  (2892,642)
+  (2891,623)
+  (2887,610)
+  (2887,590)
+  (2909,583)
+  (2919,538)
+  (2933,520)
+  (2971,499)
+  (3008,507)
+  (3037,533)
+  (3042,548)
+  (3058,539)
+  (3065,521)
+  (3073,513)
+  (3078,491)
+  (3097,468)
+  (3100,453)
+  (3093,452)
+  (3079,444)
+  (3021,429)
+  (2977,429)
+  (2936,422)
+  (2931,414)
+  (2846,440)
+  (2800,427)
+  (2762,379)
+  (2716,351)
+]
+POLYGON::("Turkey")[
+  (2114,571)
+  (2108,580)
+  (2103,583)
+  (2086,586)
+  (2066,575)
+  (2042,580)
+  (2029,576)
+  (2004,578)
+  (1974,596)
+  (1952,619)
+  (1948,655)
+  (1951,671)
+  (1960,683)
+  (1974,694)
+  (1988,696)
+  (2047,697)
+  (2053,701)
+  (2078,695)
+  (2100,695)
+  (2110,700)
+  (2132,700)
+  (2152,695)
+  (2160,661)
+  (2165,631)
+  (2179,599)
+  (2168,579)
+  (2152,574)
+  (2152,572)
+]
+POLYGON::("Syria")[
+  (2050,701)
+  (2080,695)
+  (2094,734)
+  (2110,752)
+  (2130,763)
+  (2144,782)
+  (2126,791)
+  (2106,795)
+  (2097,800)
+  (2095,787)
+  (2076,777)
+  (2069,778)
+  (2069,772)
+  (2072,766)
+  (2068,726)
+]
+POLYGON::("Iraq")[
+  (2080,695)
+  (2095,734)
+  (2110,750)
+  (2131,763)
+  (2144,783)
+  (2160,776)
+  (2161,764)
+  (2169,751)
+  (2163,721)
+  (2151,694)
+  (2132,699)
+  (2110,699)
+  (2100,695)
+]
+POLYGON::("Palestine")[
+  (2070,778)
+  (2070,786)
+  (2071,791)
+  (2063,811)
+  (2064,822)
+  (2069,829)
+  (2069,848)
+  (2068,878)
+  (2073,888)
+  (2084,898)
+  (2099,880)
+  (2100,855)
+  (2095,837)
+  (2096,818)
+  (2097,797)
+  (2096,788)
+  (2077,778)
+  (2077,777)
+]
+POLYGON::("Arabia")[
+  (2101,874)
+  (2099,882)
+  (2084,898)
+  (2090,913)
+  (2095,917)
+  (2117,972)
+  (2121,979)
+  (2118,992)
+  (2129,994)
+  (2135,984)
+  (2142,977)
+  (2150,963)
+  (2158,956)
+  (2167,957)
+  (2174,949)
+  (2197,941)
+  (2207,936)
+  (2223,933)
+  (2230,935)
+  (2257,920)
+  (2271,918)
+  (2277,914)
+  (2280,906)
+  (2289,901)
+  (2294,894)
+  (2290,887)
+  (2290,883)
+  (2273,872)
+  (2270,874)
+  (2262,875)
+  (2252,889)
+  (2236,890)
+  (2233,886)
+  (2222,886)
+  (2210,876)
+  (2195,871)
+  (2193,867)
+  (2189,867)
+  (2180,857)
+  (2177,848)
+  (2169,817)
+  (2165,812)
+  (2166,804)
+  (2163,794)
+  (2162,784)
+  (2159,776)
+  (2125,791)
+  (2110,794)
+  (2096,801)
+  (2096,835)
+  (2095,840)
+  (2100,846)
+  (2101,852)
+]
+POLYGON::("Persia")[
+  (2195,599)
+  (2179,599)
+  (2164,636)
+  (2159,666)
+  (2152,696)
+  (2164,722)
+  (2171,750)
+  (2174,760)
+  (2176,770)
+  (2181,779)
+  (2182,790)
+  (2190,804)
+  (2196,811)
+  (2201,811)
+  (2209,817)
+  (2222,823)
+  (2225,829)
+  (2238,839)
+  (2251,844)
+  (2255,848)
+  (2259,848)
+  (2276,857)
+  (2317,858)
+  (2312,856)
+  (2313,856)
+  (2324,858)
+  (2333,864)
+  (2340,874)
+  (2337,851)
+  (2346,824)
+  (2344,810)
+  (2339,793)
+  (2338,735)
+  (2334,715)
+  (2334,707)
+  (2314,662)
+  (2291,636)
+  (2286,633)
+  (2271,645)
+  (2249,642)
+  (2226,630)
+  (2211,620)
+  (2196,604)
+]
+POLYGON::("Urals")[
+  (2163,116)
+  (2158,137)
+  (2157,154)
+  (2160,156)
+  (2158,160)
+  (2155,184)
+  (2152,202)
+  (2152,223)
+  (2160,247)
+  (2158,315)
+  (2156,336)
+  (2144,388)
+  (2135,410)
+  (2125,419)
+  (2151,430)
+  (2164,446)
+  (2182,460)
+  (2183,478)
+  (2212,478)
+  (2235,473)
+  (2266,462)
+  (2278,462)
+  (2278,377)
+  (2282,350)
+  (2291,327)
+  (2299,295)
+  (2300,289)
+  (2296,283)
+  (2297,255)
+  (2287,221)
+  (2289,199)
+  (2289,191)
+  (2293,182)
+  (2293,164)
+  (2278,159)
+  (2272,158)
+  (2270,155)
+  (2258,147)
+  (2250,146)
+  (2245,142)
+  (2229,127)
+  (2205,124)
+  (2197,117)
+  (2185,118)
+]
+POLYGON::("Tomak")[
+  (2296,278)
+  (2296,285)
+  (2300,289)
+  (2297,309)
+  (2282,352)
+  (2277,460)
+  (2387,462)
+  (2407,465)
+  (2443,462)
+  (2472,455)
+  (2540,454)
+  (2547,432)
+  (2615,390)
+  (2640,365)
+  (2623,326)
+  (2624,270)
+  (2630,247)
+  (2625,241)
+  (2605,241)
+  (2599,236)
+  (2578,236)
+  (2570,240)
+  (2543,240)
+  (2519,250)
+  (2503,255)
+  (2489,256)
+  (2475,252)
+  (2462,256)
+  (2451,256)
+  (2437,251)
+  (2403,251)
+  (2319,278)
+]
+POLYGON::("Irkutsk")[
+  (2891,208)
+  (2874,240)
+  (2868,271)
+  (2866,314)
+  (2886,316)
+  (2906,321)
+  (2954,321)
+  (2963,315)
+  (2996,317)
+  (3010,304)
+  (3018,287)
+  (3025,255)
+  (3039,234)
+  (3041,228)
+  (3008,222)
+  (2999,225)
+  (2972,215)
+  (2947,215)
+  (2935,209)
+  (2920,209)
+  (2916,206)
+  (2896,206)
+  (2897,207)
+]
+POLYGON::("Siberia")[
+  (2623,327)
+  (2641,365)
+  (2650,360)
+  (2668,358)
+  (2684,350)
+  (2702,338)
+  (2701,332)
+  (2708,326)
+  (2718,323)
+  (2723,320)
+  (2731,312)
+  (2737,309)
+  (2741,313)
+  (2762,316)
+  (2766,318)
+  (2845,318)
+  (2858,315)
+  (2865,314)
+  (2869,263)
+  (2876,238)
+  (2889,211)
+  (2864,207)
+  (2855,200)
+  (2830,196)
+  (2824,197)
+  (2818,197)
+  (2776,195)
+  (2770,196)
+  (2717,224)
+  (2700,236)
+  (2683,242)
+  (2668,245)
+  (2636,245)
+  (2630,246)
+  (2624,275)
+]
+POLYGON::("Krasnoyarsk")[
+  (2594,108)
+  (2590,111)
+  (2589,117)
+  (2582,116)
+  (2591,136)
+  (2594,145)
+  (2596,180)
+  (2605,209)
+  (2608,217)
+  (2607,241)
+  (2625,241)
+  (2630,247)
+  (2636,246)
+  (2668,245)
+  (2686,242)
+  (2711,229)
+  (2728,217)
+  (2771,195)
+  (2808,196)
+  (2823,196)
+  (2824,185)
+  (2815,169)
+  (2817,132)
+  (2805,133)
+  (2795,132)
+  (2790,135)
+  (2762,134)
+  (2753,131)
+  (2729,127)
+  (2710,126)
+  (2681,125)
+  (2665,132)
+  (2657,132)
+  (2651,117)
+  (2636,95)
+  (2626,88)
+  (2616,87)
+  (2617,65)
+  (2612,57)
+  (2610,50)
+  (2607,50)
+  (2599,44)
+  (2594,54)
+  (2594,80)
+]
+POLYGON::("Koni")[
+  (2293,164)
+  (2293,184)
+  (2288,193)
+  (2287,222)
+  (2297,256)
+  (2296,277)
+  (2318,279)
+  (2389,256)
+  (2403,251)
+  (2422,251)
+  (2420,170)
+  (2419,168)
+  (2418,155)
+  (2379,159)
+  (2343,166)
+  (2305,166)
+]
+POLYGON::("Konti Marsi")[
+  (2418,155)
+  (2422,250)
+  (2443,252)
+  (2449,255)
+  (2462,255)
+  (2474,253)
+  (2481,253)
+  (2487,256)
+  (2498,256)
+  (2522,249)
+  (2541,240)
+  (2570,240)
+  (2577,237)
+  (2599,236)
+  (2605,240)
+  (2608,240)
+  (2607,216)
+  (2597,182)
+  (2596,175)
+  (2594,146)
+  (2592,136)
+  (2586,126)
+  (2583,116)
+  (2556,121)
+  (2548,127)
+  (2535,130)
+  (2525,131)
+  (2506,136)
+  (2492,136)
+  (2477,142)
+  (2455,144)
+  (2447,149)
+  (2438,152)
+]
+POLYGON::("Korea")[
+  (2909,582)
+  (2909,583)
+  (2925,584)
+  (2930,589)
+  (2933,597)
+  (2938,598)
+  (2947,607)
+  (2955,612)
+  (2971,626)
+  (2982,636)
+  (2982,649)
+  (2990,655)
+  (3012,655)
+  (3018,652)
+  (3024,648)
+  (3024,633)
+  (3023,628)
+  (3023,625)
+  (3014,600)
+  (3009,575)
+  (3005,565)
+  (3007,555)
+  (3010,551)
+  (3041,548)
+  (3029,526)
+  (3008,508)
+  (2980,501)
+  (2967,502)
+  (2943,515)
+  (2931,521)
+  (2915,552)
+]
+POLYGON::("Formosa")[
+  (2971,851)
+  (2970,882)
+  (2977,885)
+  (2982,887)
+  (2988,888)
+  (2993,877)
+  (3002,863)
+  (3001,846)
+  (2999,839)
+  (3000,835)
+  (2995,830)
+  (2988,837)
+  (2979,837)
+  (2976,841)
+]
+POLYGON::("Sri Lanka")[
+  (2517,1130)
+  (2518,1145)
+  (2524,1152)
+  (2531,1154)
+  (2535,1154)
+  (2542,1146)
+  (2548,1139)
+  (2548,1126)
+  (2545,1119)
+  (2545,1116)
+  (2542,1111)
+  (2530,1111)
+  (2523,1114)
+  (2521,1123)
+  (2516,1126)
+]
+POLYGON::("Luzon")[
+  (2977,927)
+  (2974,936)
+  (2972,967)
+  (2970,991)
+  (2974,997)
+  (2975,1017)
+  (2988,1021)
+  (3003,1021)
+  (3011,1012)
+  (3012,994)
+  (3013,987)
+  (3014,955)
+  (3010,948)
+  (3006,933)
+  (3003,934)
+  (2993,926)
+]
+POLYGON::("Mindano")[
+  (3025,1062)
+  (3019,1078)
+  (3019,1087)
+  (3026,1105)
+  (3033,1136)
+  (3042,1137)
+  (3056,1117)
+  (3064,1094)
+  (3065,1078)
+  (3057,1064)
+  (3043,1063)
+  (3040,1067)
+  (3034,1061)
+]
+POLYGON::("Borneo")[
+  (2826,1184)
+  (2828,1238)
+  (2837,1251)
+  (2849,1259)
+  (2879,1290)
+  (2906,1297)
+  (2933,1297)
+  (2943,1284)
+  (2944,1250)
+  (2946,1246)
+  (2940,1239)
+  (2940,1225)
+  (2932,1216)
+  (2927,1207)
+  (2922,1182)
+  (2923,1173)
+  (2920,1169)
+  (2909,1169)
+  (2900,1161)
+  (2853,1164)
+  (2836,1171)
+]
+POLYGON::("Sumatra")[
+  (2647,1122)
+  (2646,1131)
+  (2643,1136)
+  (2643,1143)
+  (2645,1145)
+  (2652,1147)
+  (2652,1152)
+  (2646,1166)
+  (2646,1173)
+  (2646,1183)
+  (2652,1186)
+  (2653,1197)
+  (2657,1201)
+  (2658,1214)
+  (2663,1218)
+  (2665,1225)
+  (2672,1230)
+  (2679,1230)
+  (2682,1233)
+  (2689,1234)
+  (2691,1229)
+  (2688,1223)
+  (2683,1217)
+  (2683,1205)
+  (2680,1201)
+  (2679,1197)
+  (2675,1191)
+  (2675,1188)
+  (2676,1187)
+  (2676,1176)
+  (2673,1173)
+  (2665,1169)
+  (2665,1153)
+  (2660,1146)
+  (2661,1130)
+  (2662,1127)
+  (2655,1125)
+  (2652,1125)
+]
+POLYGON::("Java")[
+  (2688,1258)
+  (2685,1262)
+  (2689,1266)
+  (2696,1267)
+  (2725,1283)
+  (2738,1285)
+  (2747,1289)
+  (2774,1289)
+  (2781,1288)
+  (2794,1288)
+  (2798,1283)
+  (2798,1277)
+  (2792,1271)
+  (2783,1266)
+  (2760,1266)
+  (2752,1263)
+  (2731,1262)
+  (2720,1257)
+]
+POLYGON::("New Guiena")[
+  (3029,1208)
+  (3023,1203)
+  (3017,1203)
+  (3017,1211)
+  (3022,1221)
+  (3024,1234)
+  (3044,1256)
+  (3060,1266)
+  (3072,1287)
+  (3077,1287)
+  (3092,1294)
+  (3107,1302)
+  (3125,1321)
+  (3133,1331)
+  (3139,1334)
+  (3157,1334)
+  (3177,1337)
+  (3199,1340)
+  (3213,1338)
+  (3225,1332)
+  (3229,1328)
+  (3227,1324)
+  (3227,1319)
+  (3216,1312)
+  (3204,1306)
+  (3196,1303)
+  (3177,1290)
+  (3157,1285)
+  (3140,1262)
+  (3138,1247)
+  (3130,1225)
+  (3125,1218)
+  (3125,1213)
+  (3097,1213)
+  (3085,1208)
+  (3067,1213)
+  (3054,1213)
+  (3048,1209)
+]
+POLYGON::("Tazmania")[
+  (3183,1739)
+  (3182,1753)
+  (3190,1761)
+  (3197,1775)
+  (3205,1777)
+  (3209,1774)
+  (3221,1773)
+  (3229,1767)
+  (3229,1754)
+  (3225,1749)
+  (3225,1740)
+  (3223,1735)
+  (3215,1734)
+  (3208,1729)
+  (3198,1730)
+  (3192,1736)
+]
+POLYGON::("South New Zealand")[
+  (3395,1814)
+  (3395,1830)
+  (3398,1835)
+  (3406,1838)
+  (3431,1839)
+  (3437,1835)
+  (3441,1830)
+  (3441,1815)
+  (3444,1804)
+  (3448,1795)
+  (3449,1781)
+  (3452,1778)
+  (3458,1778)
+  (3463,1774)
+  (3465,1764)
+  (3466,1753)
+  (3459,1747)
+  (3456,1747)
+  (3452,1743)
+  (3449,1743)
+  (3448,1757)
+  (3442,1761)
+  (3437,1763)
+  (3428,1775)
+  (3413,1780)
+  (3403,1796)
+]
+POLYGON::("North New Zealand")[
+  (3476,1719)
+  (3484,1738)
+  (3489,1746)
+  (3502,1745)
+  (3520,1724)
+  (3520,1709)
+  (3515,1702)
+  (3487,1703)
+]
+POLYGON::("Victoria")[
+  (3173,1640)
+  (3113,1635)
+  (3111,1688)
+  (3141,1689)
+  (3146,1694)
+  (3174,1700)
+  (3181,1704)
+  (3189,1717)
+  (3195,1718)
+  (3198,1715)
+  (3203,1715)
+  (3210,1712)
+  (3215,1706)
+  (3216,1701)
+  (3236,1674)
+  (3249,1654)
+  (3254,1639)
+]
+POLYGON::("New South Wales")[
+  (3113,1634)
+  (3179,1640)
+  (3254,1639)
+  (3263,1615)
+  (3262,1603)
+  (3257,1591)
+  (3250,1566)
+  (3113,1562)
+]
+POLYGON::("Queens Land")[
+  (3113,1561)
+  (3250,1566)
+  (3238,1538)
+  (3233,1521)
+  (3225,1501)
+  (3205,1459)
+  (3201,1434)
+  (3199,1429)
+  (3179,1419)
+  (3170,1409)
+  (3158,1398)
+  (3137,1386)
+  (3123,1379)
+  (3102,1347)
+  (3104,1344)
+  (3100,1339)
+  (3097,1343)
+  (3099,1354)
+  (3095,1369)
+  (3094,1384)
+  (3091,1400)
+  (3093,1402)
+  (3090,1407)
+  (3086,1413)
+  (3087,1425)
+  (3089,1434)
+  (3088,1439)
+  (3083,1449)
+  (3081,1458)
+  (3095,1479)
+  (3110,1490)
+  (3112,1494)
+]
+POLYGON::("North West Territory")[
+  (3041,1480)
+  (3032,1473)
+  (3030,1457)
+  (3027,1450)
+  (3028,1440)
+  (3038,1428)
+  (3043,1415)
+  (3042,1412)
+  (3006,1402)
+  (2992,1399)
+  (2984,1405)
+  (2983,1420)
+  (2978,1427)
+  (2972,1430)
+  (2975,1438)
+  (2976,1457)
+  (2983,1474)
+  (2983,1480)
+  (2978,1533)
+  (3112,1539)
+  (3112,1493)
+  (3110,1489)
+  (3107,1489)
+  (3093,1478)
+  (3083,1458)
+  (3070,1479)
+]
+POLYGON::("South Austraila")[
+  (3112,1539)
+  (2978,1533)
+  (2976,1688)
+  (2978,1709)
+  (2983,1706)
+  (2987,1702)
+  (2991,1701)
+  (3012,1691)
+  (3024,1685)
+  (3035,1684)
+  (3070,1684)
+  (3111,1687)
+]
+POLYGON::("Western Austrailia")[
+  (2977,1532)
+  (2983,1476)
+  (2976,1457)
+  (2975,1438)
+  (2972,1429)
+  (2962,1432)
+  (2951,1429)
+  (2943,1422)
+  (2942,1408)
+  (2937,1395)
+  (2927,1393)
+  (2905,1417)
+  (2902,1425)
+  (2890,1429)
+  (2886,1438)
+  (2867,1455)
+  (2850,1484)
+  (2843,1505)
+  (2839,1508)
+  (2837,1530)
+  (2843,1536)
+  (2845,1557)
+  (2846,1589)
+  (2860,1610)
+  (2861,1657)
+  (2855,1691)
+  (2854,1706)
+  (2862,1718)
+  (2873,1725)
+  (2886,1729)
+  (2906,1730)
+  (2921,1725)
+  (2938,1718)
+  (2962,1715)
+  (2978,1709)
+]
+POLYGON::("Antartica")[
+  (0,2249)
+  (0,2164)
+  (15,2164)
+  (24,2161)
+  (29,2154)
+  (35,2146)
+  (39,2146)
+  (42,2159)
+  (47,2172)
+  (57,2177)
+  (62,2176)
+  (63,2179)
+  (67,2179)
+  (73,2170)
+  (74,2160)
+  (84,2158)
+  (86,2158)
+  (89,2169)
+  (104,2169)
+  (111,2158)
+  (118,2170)
+  (127,2170)
+  (142,2177)
+  (256,2180)
+  (268,2183)
+  (291,2183)
+  (316,2175)
+  (336,2171)
+  (397,2172)
+  (401,2169)
+  (406,2169)
+  (408,2178)
+  (429,2180)
+  (451,2173)
+  (486,2175)
+  (535,2181)
+  (551,2188)
+  (567,2188)
+  (583,2184)
+  (657,2186)
+  (718,2173)
+  (727,2173)
+  (762,2162)
+  (800,2162)
+  (814,2166)
+  (823,2166)
+  (833,2167)
+  (851,2175)
+  (856,2175)
+  (875,2185)
+  (910,2193)
+  (943,2198)
+  (949,2199)
+  (1008,2197)
+  (1030,2191)
+  (1058,2186)
+  (1077,2187)
+  (1163,2203)
+  (1202,2204)
+  (1226,2199)
+  (1241,2187)
+  (1245,2171)
+  (1242,2141)
+  (1236,2136)
+  (1236,2131)
+  (1233,2127)
+  (1250,2129)
+  (1256,2137)
+  (1281,2152)
+  (1287,2161)
+  (1288,2177)
+  (1281,2192)
+  (1264,2208)
+  (1264,2221)
+  (1267,2224)
+  (1307,2225)
+  (1337,2210)
+  (1360,2204)
+  (1413,2203)
+  (1422,2198)
+  (1441,2193)
+  (1466,2186)
+  (1525,2188)
+  (1534,2191)
+  (1552,2194)
+  (1577,2203)
+  (1596,2207)
+  (1641,2207)
+  (1661,2200)
+  (1698,2201)
+  (1716,2204)
+  (1763,2185)
+  (1781,2181)
+  (1818,2181)
+  (1833,2189)
+  (1886,2188)
+  (1890,2189)
+  (1905,2186)
+  (1925,2186)
+  (1940,2195)
+  (1956,2199)
+  (1998,2197)
+  (2113,2176)
+  (2180,2171)
+  (2237,2161)
+  (2328,2161)
+  (2341,2168)
+  (2356,2171)
+  (2379,2171)
+  (2407,2165)
+  (2438,2154)
+  (2466,2149)
+  (2496,2146)
+  (2511,2146)
+  (2527,2152)
+  (2529,2153)
+  (2552,2153)
+  (2582,2149)
+  (2614,2147)
+  (2686,2147)
+  (2695,2151)
+  (2717,2153)
+  (2755,2143)
+  (2767,2141)
+  (2824,2114)
+  (2893,2112)
+  (2909,2106)
+  (2949,2102)
+  (2972,2101)
+  (2996,2094)
+  (3001,2089)
+  (3096,2088)
+  (3114,2100)
+  (3117,2106)
+  (3099,2118)
+  (3085,2125)
+  (3067,2127)
+  (2993,2151)
+  (2981,2165)
+  (2984,2172)
+  (2988,2173)
+  (2999,2182)
+  (3009,2184)
+  (3049,2187)
+  (3076,2194)
+  (3157,2197)
+  (3165,2195)
+  (3197,2179)
+  (3200,2174)
+  (3226,2160)
+  (3284,2160)
+  (3302,2163)
+  (3305,2165)
+  (3322,2165)
+  (3368,2158)
+  (3393,2156)
+  (3452,2157)
+  (3496,2164)
+  (3597,2167)
+  (3597,2248)
+]
+POLYGON::("South Africa")[
+  (1795,1564)
+  (1802,1588)
+  (1810,1595)
+  (1812,1612)
+  (1818,1631)
+  (1824,1635)
+  (1827,1652)
+  (1839,1664)
+  (1852,1683)
+  (1861,1690)
+  (1864,1690)
+  (1865,1695)
+  (1876,1699)
+  (1880,1711)
+  (1891,1715)
+  (1896,1714)
+  (1899,1721)
+  (1934,1748)
+  (1952,1757)
+  (2007,1756)
+  (2022,1746)
+  (2036,1737)
+  (2047,1723)
+  (2066,1714)
+  (2078,1699)
+  (2086,1679)
+  (2095,1621)
+  (2099,1588)
+  (2098,1543)
+  (2084,1543)
+  (2072,1539)
+  (2064,1544)
+  (2064,1544)
+  (2040,1543)
+  (2037,1540)
+  (2015,1541)
+  (1997,1556)
+  (1954,1560)
+  (1941,1571)
+  (1921,1570)
+  (1908,1550)
+  (1894,1550)
+  (1872,1565)
+  (1847,1563)
+  (1829,1551)
+  (1824,1555)
+  (1807,1556)
+]
+POLYGON::("Egypt")[
+  (2077,943)
+  (2077,936)
+  (2068,912)
+  (2062,904)
+  (2063,892)
+  (2073,891)
+  (2068,876)
+  (2064,878)
+  (2038,878)
+  (2031,875)
+  (2027,862)
+  (2016,860)
+  (2011,858)
+  (2001,858)
+  (1993,870)
+  (1980,869)
+  (1934,859)
+  (1933,914)
+  (1937,927)
+  (1938,941)
+  (1998,944)
+  (2000,948)
+  (2004,945)
+]
+POLYGON::("Libya")[
+  (1938,942)
+  (1936,925)
+  (1933,915)
+  (1934,858)
+  (1904,866)
+  (1892,866)
+  (1870,858)
+  (1857,849)
+  (1835,850)
+  (1823,841)
+  (1811,841)
+  (1813,882)
+  (1815,943)
+]
+POLYGON::("Algeria")[
+  (1649,786)
+  (1627,778)
+  (1610,778)
+  (1610,787)
+  (1597,797)
+  (1591,801)
+  (1573,835)
+  (1560,844)
+  (1551,861)
+  (1550,901)
+  (1547,921)
+  (1544,944)
+  (1543,945)
+  (1665,950)
+  (1691,949)
+  (1696,947)
+  (1753,947)
+  (1770,944)
+  (1814,945)
+  (1812,842)
+  (1785,842)
+  (1757,842)
+  (1732,836)
+  (1728,827)
+  (1725,823)
+  (1721,823)
+  (1717,813)
+  (1707,787)
+]
+POLYGON::("Morrocco")[
+  (1575,775)
+  (1564,763)
+  (1560,758)
+  (1549,751)
+  (1544,751)
+  (1529,794)
+  (1517,803)
+  (1503,825)
+  (1503,843)
+  (1494,853)
+  (1488,866)
+  (1490,905)
+  (1495,941)
+  (1502,952)
+  (1514,963)
+  (1520,960)
+  (1523,963)
+  (1529,961)
+  (1541,951)
+  (1544,944)
+  (1545,920)
+  (1550,901)
+  (1551,862)
+  (1560,844)
+  (1573,834)
+  (1591,801)
+  (1610,786)
+  (1610,779)
+  (1596,778)
+]
+POLYGON::("Sudan")[
+  (2004,945)
+  (2000,949)
+  (1997,945)
+  (1937,943)
+  (1937,956)
+  (1934,968)
+  (1937,973)
+  (1937,984)
+  (1930,996)
+  (1930,1011)
+  (1925,1017)
+  (1951,1018)
+  (1969,1015)
+  (1980,1015)
+  (1998,1008)
+  (2028,1008)
+  (2063,1003)
+  (2082,1004)
+  (2083,1005)
+  (2094,1000)
+  (2098,1000)
+  (2098,995)
+  (2099,987)
+  (2088,974)
+  (2082,969)
+  (2077,944)
+]
+POLYGON::("Ethiopia")[
+  (1925,1016)
+  (1922,1034)
+  (1951,1043)
+  (1957,1047)
+  (1972,1057)
+  (1983,1056)
+  (2014,1071)
+  (2025,1073)
+  (2032,1089)
+  (2034,1099)
+  (2037,1104)
+  (2065,1103)
+  (2087,1108)
+  (2115,1108)
+  (2125,1114)
+  (2130,1118)
+  (2142,1118)
+  (2156,1103)
+  (2170,1075)
+  (2182,1050)
+  (2188,1031)
+  (2202,1015)
+  (2205,994)
+  (2209,983)
+  (2209,975)
+  (2200,965)
+  (2186,968)
+  (2176,979)
+  (2158,992)
+  (2154,992)
+  (2150,999)
+  (2135,1007)
+  (2110,1008)
+  (2100,998)
+  (2090,1002)
+  (2084,1005)
+  (2056,1004)
+  (2029,1008)
+  (1998,1008)
+  (1981,1015)
+  (1957,1017)
+  (1952,1018)
+]
+POLYGON::("Madagascar")[
+  (2172,1561)
+  (2158,1580)
+  (2154,1597)
+  (2153,1627)
+  (2160,1636)
+  (2160,1654)
+  (2154,1659)
+  (2153,1678)
+  (2168,1695)
+  (2168,1703)
+  (2175,1712)
+  (2184,1712)
+  (2190,1716)
+  (2192,1721)
+  (2200,1721)
+  (2214,1700)
+  (2220,1692)
+  (2221,1678)
+  (2209,1659)
+  (2207,1651)
+  (2208,1628)
+  (2214,1624)
+  (2212,1599)
+  (2206,1590)
+  (2202,1584)
+  (2202,1581)
+  (2200,1579)
+  (2200,1587)
+  (2198,1587)
+  (2195,1581)
+  (2194,1570)
+]
+POLYGON::("Mali")[
+  (1545,945)
+  (1541,953)
+  (1528,960)
+  (1523,961)
+  (1525,968)
+  (1525,980)
+  (1539,995)
+  (1541,1016)
+  (1555,1055)
+  (1578,1097)
+  (1611,1122)
+  (1625,1127)
+  (1652,1133)
+  (1672,1096)
+  (1673,1089)
+  (1689,1052)
+  (1698,1002)
+  (1712,967)
+  (1712,946)
+  (1668,950)
+]
+POLYGON::("Nigeria")[
+  (1712,947)
+  (1712,967)
+  (1697,1009)
+  (1692,1033)
+  (1689,1050)
+  (1673,1090)
+  (1672,1097)
+  (1653,1134)
+  (1688,1147)
+  (1695,1129)
+  (1709,1121)
+  (1711,1116)
+  (1719,1116)
+  (1737,1093)
+  (1756,1073)
+  (1767,1051)
+  (1770,1017)
+  (1770,990)
+  (1780,970)
+  (1779,943)
+  (1755,947)
+]
+POLYGON::("Chad")[
+  (1779,943)
+  (1780,969)
+  (1770,991)
+  (1772,1029)
+  (1766,1054)
+  (1757,1072)
+  (1774,1072)
+  (1785,1072)
+  (1794,1062)
+  (1796,1058)
+  (1803,1057)
+  (1818,1057)
+  (1824,1051)
+  (1843,1050)
+  (1845,1058)
+  (1858,1062)
+  (1863,1074)
+  (1869,1080)
+  (1879,1082)
+  (1885,1081)
+  (1895,1070)
+  (1904,1053)
+  (1916,1045)
+  (1921,1040)
+  (1922,1030)
+  (1925,1015)
+  (1930,1010)
+  (1930,995)
+  (1937,985)
+  (1937,975)
+  (1934,967)
+  (1937,944)
+  (1824,945)
+]
+POLYGON::("Congo")[
+  (1756,1072)
+  (1737,1094)
+  (1719,1116)
+  (1711,1116)
+  (1709,1122)
+  (1695,1129)
+  (1688,1147)
+  (1706,1153)
+  (1755,1159)
+  (1764,1162)
+  (1799,1177)
+  (1812,1190)
+  (1817,1214)
+  (1820,1238)
+  (1841,1239)
+  (1875,1237)
+  (1890,1239)
+  (1908,1247)
+  (1942,1249)
+  (1959,1254)
+  (1966,1244)
+  (1971,1228)
+  (1978,1218)
+  (1993,1203)
+  (2002,1185)
+  (2015,1155)
+  (2024,1109)
+  (2026,1102)
+  (2034,1099)
+  (2032,1089)
+  (2024,1073)
+  (2013,1071)
+  (1982,1055)
+  (1970,1057)
+  (1945,1040)
+  (1922,1034)
+  (1921,1040)
+  (1914,1047)
+  (1903,1053)
+  (1894,1070)
+  (1885,1081)
+  (1873,1082)
+  (1867,1078)
+  (1860,1068)
+  (1858,1061)
+  (1846,1058)
+  (1844,1055)
+  (1842,1050)
+  (1824,1052)
+  (1817,1058)
+  (1795,1057)
+  (1792,1065)
+  (1784,1072)
+  (1777,1072)
+]
+POLYGON::("Kenya")[
+  (2034,1099)
+  (2026,1104)
+  (2023,1114)
+  (2012,1163)
+  (1996,1198)
+  (1978,1219)
+  (1969,1233)
+  (1965,1246)
+  (1957,1255)
+  (1960,1278)
+  (1966,1288)
+  (1965,1361)
+  (1969,1369)
+  (1978,1380)
+  (1984,1396)
+  (2082,1398)
+  (2089,1399)
+  (2097,1403)
+  (2103,1393)
+  (2105,1387)
+  (2105,1332)
+  (2103,1327)
+  (2098,1305)
+  (2096,1291)
+  (2092,1284)
+  (2092,1268)
+  (2100,1255)
+  (2111,1243)
+  (2116,1241)
+  (2110,1236)
+  (2107,1228)
+  (2102,1218)
+  (2096,1195)
+  (2096,1189)
+  (2102,1166)
+  (2117,1157)
+  (2119,1149)
+  (2118,1148)
+  (2126,1146)
+  (2130,1143)
+  (2142,1119)
+  (2131,1118)
+  (2113,1107)
+  (2084,1108)
+  (2064,1102)
+  (2048,1103)
+  (2036,1104)
+]
+POLYGON::("Angola")[
+  (1704,1152)
+  (1717,1168)
+  (1720,1182)
+  (1727,1193)
+  (1749,1255)
+  (1748,1281)
+  (1754,1284)
+  (1761,1292)
+  (1760,1306)
+  (1756,1319)
+  (1753,1327)
+  (1756,1334)
+  (1764,1339)
+  (1765,1359)
+  (1771,1363)
+  (1773,1387)
+  (1778,1391)
+  (1778,1405)
+  (1775,1411)
+  (1765,1414)
+  (1764,1437)
+  (1771,1441)
+  (1771,1460)
+  (1778,1465)
+  (1779,1486)
+  (1777,1495)
+  (1785,1503)
+  (1781,1523)
+  (1786,1530)
+  (1790,1534)
+  (1797,1543)
+  (1796,1566)
+  (1807,1556)
+  (1824,1556)
+  (1830,1551)
+  (1847,1563)
+  (1872,1565)
+  (1893,1551)
+  (1909,1551)
+  (1921,1570)
+  (1941,1570)
+  (1954,1559)
+  (1952,1558)
+  (1952,1550)
+  (1945,1539)
+  (1927,1532)
+  (1924,1529)
+  (1924,1497)
+  (1920,1482)
+  (1912,1472)
+  (1911,1465)
+  (1933,1420)
+  (1939,1416)
+  (1941,1404)
+  (1927,1404)
+  (1927,1401)
+  (1917,1400)
+  (1881,1372)
+  (1860,1343)
+  (1854,1323)
+  (1852,1275)
+  (1863,1258)
+  (1864,1248)
+  (1869,1236)
+  (1844,1239)
+  (1820,1238)
+  (1812,1193)
+  (1806,1183)
+  (1760,1160)
+  (1733,1157)
+]
+POLYGON::("Tanzania")[
+  (1984,1396)
+  (1982,1391)
+  (1971,1392)
+  (1950,1401)
+  (1942,1401)
+  (1940,1414)
+  (1936,1418)
+  (1930,1423)
+  (1912,1466)
+  (1913,1473)
+  (1920,1482)
+  (1923,1491)
+  (1924,1529)
+  (1930,1533)
+  (1946,1538)
+  (1951,1548)
+  (1953,1558)
+  (1992,1556)
+  (2001,1552)
+  (2014,1541)
+  (2036,1541)
+  (2060,1544)
+  (2073,1540)
+  (2083,1543)
+  (2098,1543)
+  (2097,1507)
+  (2108,1492)
+  (2103,1474)
+  (2102,1442)
+  (2099,1439)
+  (2098,1402)
+  (2081,1397)
+]
+POLYGON::("Zambia")[
+  (1868,1236)
+  (1862,1261)
+  (1852,1276)
+  (1854,1325)
+  (1866,1353)
+  (1890,1380)
+  (1905,1390)
+  (1918,1400)
+  (1927,1402)
+  (1934,1404)
+  (1941,1403)
+  (1943,1400)
+  (1952,1401)
+  (1974,1392)
+  (1981,1391)
+  (1979,1384)
+  (1965,1360)
+  (1965,1290)
+  (1959,1278)
+  (1960,1253)
+  (1935,1248)
+  (1907,1247)
+  (1886,1237)
+]
+POLYGON::("Green Land")[
+  (1136,56)
+  (1119,59)
+  (1112,64)
+  (1105,63)
+  (1100,68)
+  (1101,81)
+  (1102,94)
+  (1110,106)
+  (1122,185)
+  (1135,231)
+  (1155,261)
+  (1202,318)
+  (1205,318)
+  (1208,322)
+  (1243,321)
+  (1257,311)
+  (1274,293)
+  (1283,278)
+  (1300,224)
+  (1316,173)
+  (1333,135)
+  (1335,117)
+  (1342,109)
+  (1340,107)
+  (1341,103)
+  (1344,103)
+  (1344,70)
+  (1340,59)
+  (1320,45)
+  (1315,45)
+  (1256,45)
+  (1209,54)
+  (1188,54)
+  (1184,58)
+]
+POLYGON::("Japan")[
+  (3085,611)
+  (3085,616)
+  (3080,621)
+  (3080,626)
+  (3071,633)
+  (3064,642)
+  (3056,643)
+  (3049,651)
+  (3045,652)
+  (3045,659)
+  (3041,665)
+  (3032,669)
+  (3027,668)
+  (3021,679)
+  (3028,685)
+  (3057,685)
+  (3068,682)
+  (3073,676)
+  (3078,669)
+  (3078,664)
+  (3081,661)
+  (3088,658)
+  (3095,653)
+  (3101,653)
+  (3111,642)
+  (3121,624)
+  (3122,612)
+  (3124,605)
+  (3120,603)
+  (3115,604)
+  (3107,604)
+  (3093,610)
+]
+POLYGON::("Guam")[
+  (3230,913)
+  (3224,921)
+  (3224,929)
+  (3233,929)
+  (3236,930)
+  (3243,931)
+  (3258,916)
+  (3244,915)
+  (3239,911)
+  (3234,913)
+]
+POLYGON::("sakhalin")[
+  (3119,451)
+  (3120,467)
+  (3120,479)
+  (3118,484)
+  (3117,491)
+  (3117,513)
+  (3121,520)
+  (3122,538)
+  (3126,539)
+  (3130,523)
+  (3135,492)
+  (3135,475)
+  (3126,458)
+]
+POLYGON::("Hokkaido")[
+  (3118,558)
+  (3114,560)
+  (3114,566)
+  (3107,571)
+  (3101,572)
+  (3101,574)
+  (3110,577)
+  (3114,581)
+  (3114,589)
+  (3107,592)
+  (3106,595)
+  (3116,596)
+  (3120,601)
+  (3129,601)
+  (3135,594)
+  (3151,594)
+  (3160,595)
+  (3162,587)
+  (3164,583)
+  (3158,579)
+  (3154,579)
+  (3152,570)
+  (3140,558)
+]

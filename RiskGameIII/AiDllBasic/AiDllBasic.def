@@ -1,0 +1,23 @@
+; AiDllBasic.def : Declares the module parameters for the DLL.
+
+LIBRARY      "AiDllBasic"
+DESCRIPTION  'AiDllBasic Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	War
+	Attack
+	AttackFrom
+	Choose
+	Place
+	Cards
+	FreeMove
+	Name
+	Defend
+	GetParams
+	GetParamSize
+	GetParamIndex
+	GetTotalParams
+	SetParameter
+	GetParameter
+	EditParamDLG
