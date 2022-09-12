@@ -1,0 +1,9 @@
+Risk...risky business
+
+I wrote one about 10 years ago using VS6, and while it did
+"work", well, I have wanted to improve it.
+The old one, which was in this repository, has been removed.
+If you wanted it, well, sorry.
+As of Sept 11, 2022, the files don't do anything.  Just the
+MFC skeleton code for the three different portions of the
+app.  There is the game, map editor, and AI (for computer opponents).
